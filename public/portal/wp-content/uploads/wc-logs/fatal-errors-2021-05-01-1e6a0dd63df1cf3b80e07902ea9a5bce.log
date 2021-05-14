@@ -1,0 +1,140 @@
+2021-05-01T00:24:30+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:24:43+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:25:08+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:25:13+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:25:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:25:26+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:25:31+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:25:44+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:04+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:07+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:08+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:12+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:15+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:30+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:34+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:36+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:36+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+
+2021-05-01T00:26:36+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Error saving action: Table 'wordpress.wp_actionscheduler_actions' doesn't exist in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php(36): ActionScheduler_ActionFactory->single('action_schedule...', in /var/www/html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 44
+

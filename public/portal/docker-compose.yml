@@ -1,0 +1,23 @@
+wordpress:
+    build: .
+    # image: wordpress:latest
+    container_name: app-blog
+    links:
+     - mysql
+    environment:
+     - WORDPRESS_DB_PASSWORD=password
+     - WORDPRESS_DB_USER=root
+    ports:
+     - "80:80"
+    volumes:
+     - .:/var/www/html
+mysql:
+    container_name: database-blogs
+    image: mariadb:latest
+    environment:
+     - MYSQL_ROOT_PASSWORD=password
+     - MYSQL_DATABASE=blog_experimento
+    ports:
+     - "3306:3306"
+    volumes:
+     - ~/.docker/mariadb:/var/lib/mysql

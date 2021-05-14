@@ -1,0 +1,52 @@
+ */
+				do_action( 'wp_authorize_application_password_form', $request, $user );
+				?>
+
+				<?php
+				submit_button(
+					__( 'Yes, I approve of this connection.' ),
+					'primary',
+					'approve',
+					false,
+					array(
+						'aria-describedby' => 'description-approve',
+					)
+				);
+				?>
+				<p class="description" id="description-approve">
+					<?php
+					if ( $success_url ) {
+						printf(
+							/* translators: %s: The URL the user is being redirected to. */
+							__( 'You will be sent to %s' ),
+							'<strong><kbd>' . esc_html(
+								add_query_arg(
+									array(
+										'site_url'   => site_url(),
+										'user_login' => $user->user_login,
+										'password'   => '[------]',
+									),
+									$success_url
+								)
+							) . '</kbd></strong>'
+						);
+					} else {
+						_e( 'You will be given a password to manually enter into the application in question.' );
+					}
+					?>
+				</p>
+
+				<?php
+				submit_button(
+					__( 'No, I do not approve of this connection.' ),
+					'secondary',
+					'reject',
+					false,
+					array(
+						'aria-describedby' => 'description-reject',
+					)
+				);
+				?>
+				<p class="description" id="description-reject">
+					<?php
+					i
