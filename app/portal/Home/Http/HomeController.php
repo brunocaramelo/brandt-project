@@ -25,7 +25,7 @@ class HomeController extends Controller
 
         return view('home.index', [
                                     'banner' => $banner,
-                                    'testimonials' => $testimonials
+                                    'testimonials' => $testimonials,
                                 ]);
     }
 
