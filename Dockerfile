@@ -12,9 +12,9 @@ RUN composer install  \
     --no-scripts \
     --prefer-dist
 
-COPY . /app/
+COPY . /public/
 
-WORKDIR /app
+WORKDIR /public
 
 RUN composer dump-autoload --optimize --classmap-authoritative
 
