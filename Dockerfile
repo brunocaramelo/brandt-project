@@ -5,5 +5,6 @@ EXPOSE 80
 WORKDIR /app
 COPY . /app
 COPY vhost.conf /etc/apache2/sites-available/000-default.conf
+RUN composer install
 RUN chown -R www-data:www-data /app \
     && a2enmod rewrite
