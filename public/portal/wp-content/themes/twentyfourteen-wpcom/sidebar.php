@@ -17,8 +17,12 @@
 	<?php endif; ?>
 
 	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
-    <div style="background:blue">Logo Aqui</div>
-	<nav role="navigation" class="navigation site-navigation secondary-navigation" style="background:ṕ">
+
+    <div id="xwezi-aside">
+        <img src="wp-content/themes/twentyfourteen-wpcom/images/logo-dark.png" class="xwezi-logo" />
+    </div>
+
+    <nav role="navigation" class="navigation site-navigation secondary-navigation">
 		<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 	</nav>
 	<?php endif; ?>

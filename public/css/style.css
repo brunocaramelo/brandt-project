@@ -590,9 +590,9 @@ td {
     font-weight: 400;
     font-size: 50px;
     text-transform: uppercase;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     display: block;
-    max-width: 105px;
+    /* max-width: 105px; */
     color: #caae64;
     letter-spacing: 3px;
 }

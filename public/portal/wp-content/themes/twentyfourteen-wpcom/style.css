@@ -4440,3 +4440,17 @@ a.post-thumbnail:hover {
 		padding-top: 0;
 	}
 }
+
+#secondary #xwezi-aside .xwezi-logo {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    display: block;
+    /* max-width: 105px; */
+    color: #caae64;
+    letter-spacing: 3px;
+}
+
