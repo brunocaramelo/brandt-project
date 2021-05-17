@@ -4,7 +4,7 @@ link: http://profiles.wordpress.org/takanakui
 Tags:   mobile, navigation, responsive, menu,  responsive menu, mobile menu,  tablet menu, hamburger menu, hamburger, wordpress responsive menu, wordpress mobile menu, canvas menu
 Requires at least: 4.4
 Tested up to: 5.7
-Stable tag: 2.8.2.1
+Stable tag: 2.8.2.2
 Requires PHP: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -132,6 +132,11 @@ Not available at the moment
  
 == Changelog ==
 
+
+
+= 2.8.2.2 =
+* Fix! - Fix Menu settings and widgetized areas in translated websites
+* Fix! - Fix Walker Menu filter
 
 = 2.8.2.1 =
 * Fix! - Change code that only worked with PHP 7.4

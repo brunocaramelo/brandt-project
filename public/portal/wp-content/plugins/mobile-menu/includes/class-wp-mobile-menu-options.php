@@ -103,24 +103,31 @@ class WP_Mobile_Menu_Options
             // Create General Options panel.
             $general_tab2 = $panel->createTab( array(
                 'name' => __( 'General Options', 'mobile-menu' ),
+                'id'   => 'general-options',
             ) );
             $general_tab = $panel->createTab( array(
                 'name' => __( 'Header', 'mobile-menu' ),
+                'id'   => 'header',
             ) );
             $general_tab = $panel->createTab( array(
                 'name' => __( 'Footer', 'mobile-menu' ),
+                'id'   => 'footer',
             ) );
             $general_tab = $panel->createTab( array(
                 'name' => __( 'Left Menu', 'mobile-menu' ),
+                'id'   => 'left-menu',
             ) );
             $general_tab = $panel->createTab( array(
                 'name' => __( 'Right Menu', 'mobile-menu' ),
+                'id'   => 'right-menu',
             ) );
             $general_tab = $panel->createTab( array(
                 'name' => __( 'WooCommerce', 'mobile-menu' ),
+                'id'   => 'woocommerce',
             ) );
             $general_tab = $panel->createTab( array(
                 'name' => __( 'Colors', 'mobile-menu' ),
+                'id'   => 'colors',
             ) );
             $general_tab = $general_tab2;
             $this->create_footer_options_upsell( $panel, $titan );

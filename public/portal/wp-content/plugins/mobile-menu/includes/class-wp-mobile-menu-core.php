@@ -406,7 +406,7 @@ class WP_Mobile_Menu_Core
                 ?>
 				<ul class="rightmtop">
 					<?php 
-                dynamic_sidebar( 'Right Menu Top' );
+                dynamic_sidebar( 'mobmrighttop' );
                 ?>
 				</ul>
 			<?php 
@@ -446,7 +446,7 @@ class WP_Mobile_Menu_Core
                 ?>
 				<ul class="rightmbottom">
 					<?php 
-                dynamic_sidebar( 'Right Menu Bottom' );
+                dynamic_sidebar( 'mobmrightbottom' );
                 ?>
 				</ul>
 			<?php 
@@ -491,7 +491,7 @@ class WP_Mobile_Menu_Core
             ?>
 			<ul class="leftmtop">
 				<?php 
-            dynamic_sidebar( 'Left Menu Top' );
+            dynamic_sidebar( 'mobmlefttop' );
             ?>
 			</ul>
 		<?php 
@@ -531,7 +531,7 @@ class WP_Mobile_Menu_Core
             ?>
 				<ul class="leftmbottom">
 					<?php 
-            dynamic_sidebar( 'Left Menu Bottom' );
+            dynamic_sidebar( 'mobmleftbottom' );
             ?>
 				</ul>
 		<?php 
