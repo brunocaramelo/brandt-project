@@ -17,7 +17,8 @@
 	<?php endif; ?>
 
 	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
-	<nav role="navigation" class="navigation site-navigation secondary-navigation">
+    <div style="background:blue">Logo Aqui</div>
+	<nav role="navigation" class="navigation site-navigation secondary-navigation" style="background:ṕ">
 		<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
 	</nav>
 	<?php endif; ?>
