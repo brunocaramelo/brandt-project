@@ -65,7 +65,7 @@ class WP_Mobile_Menu_Walker_Nav_Menu extends Walker_Nav_Menu
         if ( $this->footer_li_class !== '' ) {
         }
         $output .= apply_filters(
-            'wp_mobmenu_walker_nav_menu_start_el',
+            'walker_nav_menu_start_el',
             $item_output,
             $item,
             $depth,
