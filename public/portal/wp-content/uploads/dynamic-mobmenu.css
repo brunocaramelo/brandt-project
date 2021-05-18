@@ -81,6 +81,8 @@
 	}
 	#mobmenuleft li a , #mobmenuleft li a:visited, .mobmenu-content h2, .mobmenu-content h3, .show-nav-left .mob-menu-copyright, .show-nav-left .mob-expand-submenu i {
 		color: #fff;
+        font-size: 13px;
+        font-family: 'Oswald', sans-serif;
 
 	}
 	.mob-cancel-button {
@@ -110,12 +112,13 @@
 		color: #ccc;
 	}
 
-		.mobmenu-content #mobmenuleft .sub-menu {
+	.mobmenu-content #mobmenuleft .sub-menu {
 		margin: 0;
 		color: #fff ;
 		width: 100%;
 		position: initial;
 		height: 100%;
+
 	}
 	.mob-menu-left-bg-holder {
 		opacity: 1;
@@ -127,14 +130,15 @@
 		background-size: cover;
 	}
 	.mob-menu-right-bg-holder {
-				opacity: 1;
+		opacity: 1;
 		background-attachment: fixed ;
 		background-position: center top ;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size:  cover;
 	}
-		.mobmenu-content #mobmenuleft .sub-menu a {
+
+    .mobmenu-content #mobmenuleft .sub-menu a {
 		color: #fff ;
 	}
 	.mobmenu-content #mobmenuright .sub-menu  a {
@@ -338,7 +342,8 @@
 
 
 .mob-menu-logo-holder > .headertext span,.mobmenu input.mob-menu-search-field {
-	font-family:Dosis;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 	font-size:20px;
 	font-weight:inherit;
 	font-style:normal;
@@ -347,7 +352,8 @@
 }
 
 .left-menu-icon-text {
-	font-family:Dosis;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 	font-size:inherit;
 	font-weight:inherit;
 	font-style:normal;
@@ -357,7 +363,8 @@
 }
 
 #mobmenuleft .mob-expand-submenu,#mobmenuleft > .widgettitle,#mobmenuleft li a,#mobmenuleft li a:visited,#mobmenuleft .mobmenu-content h2,#mobmenuleft .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name, .mobmenu-content .mobmenu-tabs-header li {
-	font-family:Dosis;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 	font-size:inherit;
 	font-weight:inherit;
 	font-style:normal;
@@ -367,7 +374,8 @@
 }
 
 .right-menu-icon-text {
-	font-family:Dosis;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 	font-size:inherit;
 	font-weight:inherit;
 	font-style:normal;
@@ -377,7 +385,8 @@
 }
 
 #mobmenuright li a,#mobmenuright li a:visited,#mobmenuright .mobmenu-content h2,#mobmenuright .mobmenu-content h3,.mobmenu-left-panel .mobmenu-display-name {
-	font-family:Dosis;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 	font-size:inherit;
 	font-weight:inherit;
 	font-style:normal;
@@ -387,6 +396,8 @@
 }
 
 .mobmenul-container {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
     float:left;
     top: 2;
     left: 2;
