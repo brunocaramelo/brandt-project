@@ -4580,7 +4580,6 @@ body.offcanvas .xwezi-nav-toggle {
     float: left;
     margin-right:10px;
 }
-
 @font-face {
 	font-family: 'themify';
 	src:url('fonts/themify.eot');
@@ -4605,7 +4604,6 @@ body.offcanvas .xwezi-nav-toggle {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
 .ti-facebook:before {
 	content: "\e741";
 }
