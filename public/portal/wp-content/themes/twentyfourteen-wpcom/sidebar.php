@@ -7,7 +7,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<div id="secondary">
+<div id="secondary" class="nav">
 	<?php do_action( 'before_sidebar' ); ?>
 	<?php
 		$description = get_bloginfo( 'description', 'display' );
