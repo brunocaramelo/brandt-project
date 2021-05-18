@@ -2152,7 +2152,7 @@ a.post-thumbnail:hover {
 	color: rgba(255, 255, 255, 0.7);
 	margin-top: -1px;
 	padding: 0 10px;
-	position: relative;
+	position: fixed;
 	z-index: 2;
 }
 
