@@ -4531,3 +4531,12 @@ a.post-thumbnail:hover {
     letter-spacing: 3px;
 }
 
+body.offcanvas .xwezi-nav-toggle {
+    top: 0;
+    -moz-transform: translateX(270px);
+    -webkit-transform: translateX(270px);
+    -ms-transform: translateX(270px);
+    -o-transform: translateX(270px);
+    transform: translateX(270px);
+}
+
