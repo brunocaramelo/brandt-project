@@ -19,7 +19,7 @@
 	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
 
     <div id="xwezi-aside">
-        <img src="wp-content/themes/twentyfourteen-wpcom/images/logo-dark.png" class="xwezi-logo" />
+        <img src="wp-content/themes/twentyfourteen-wpcom/images/logo-dark.png" class="xwezi-logo" style="width: 200px;height: 66px" />
     </div>
 
     <nav role="navigation" class="navigation site-navigation secondary-navigation">
