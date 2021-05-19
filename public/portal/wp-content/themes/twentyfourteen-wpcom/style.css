@@ -853,6 +853,7 @@ span + .edit-link:before,
 }
 
 .site-header {
+    display: none;
 	background-color: #000;
 	max-width: 1260px;
 	position: relative;
@@ -4798,3 +4799,4 @@ body.offcanvas .xwezi-nav-toggle {
 .ti-instagram:before {
 	content: "\e73d";
 }
+
