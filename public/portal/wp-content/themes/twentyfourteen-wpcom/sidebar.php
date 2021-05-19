@@ -7,7 +7,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<div id="secondary">
+<div id="secondary" class="nav">
     <div class="nav xwezi-aside">
         <?php do_action( 'before_sidebar' ); ?>
         <?php
@@ -20,7 +20,7 @@
         <?php if ( has_nav_menu( 'secondary' ) ) : ?>
 
         <div class="xwezi-logo">
-            <img src="wp-content/themes/twentyfourteen-wpcom/images/logo-dark.png" class="xwezi-logo" s/>
+            <img src="wp-content/themes/twentyfourteen-wpcom/images/logo-dark.png" class="xwezi-logo" />
         </div>
 
         <nav role="navigation" id="xwezi-main-menu">

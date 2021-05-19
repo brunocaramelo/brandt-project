@@ -64,6 +64,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 15px;
+    line-height: 1.75em;
+    font-weight: 400;
 }
 
 article,
@@ -4126,7 +4133,7 @@ a.post-thumbnail:hover {
         margin: 5px 0 5px 0;
         padding: 0 0 5px 0;
         list-style: none;
-        font-size: 17px;
+        font-size: 13px;
         font-weight: 300;
         line-height: 1.5em;
     }
@@ -4166,7 +4173,7 @@ a.post-thumbnail:hover {
         width: 100%;
     }
 
-    xwezi-aside .xwezi-footer {
+    .xwezi-aside .xwezi-footer {
         position: absolute;
         font-size: 15px;
         font-weight: 300;
@@ -4230,15 +4237,7 @@ a.post-thumbnail:hover {
         position: fixed;
 	}
 
-	/* #secondary {
-		background-color: transparent;
-		border: 0;
-		clear: none;
-		float: left;
-		margin: 0 0 0 -100%;
-		min-height: 100vh;
-		width: 122px;
-	} */
+
 	.secondary-navigation,
 	.secondary-navigation ul ul {
 		width: 222px;
@@ -4277,10 +4276,41 @@ a.post-thumbnail:hover {
 	}
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1415px) {
+@media screen and (min-width: 900px) {
 	.search-box .search-field {
 		width: 324px;
 	}
+
+    .xwezi-aside #xwezi-main-menu ul {
+        list-style: none;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .xwezi-aside .xwezi-footer ul li {
+        padding: 0;
+        margin: 0;
+        display: inline;
+        list-style: none;
+    }
+
+
+    .xwezi-aside #xwezi-main-menu ul li a {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        position: relative;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
 
 	.site-content,
 	.site-main .widecolumn {
@@ -4423,7 +4453,9 @@ a.post-thumbnail:hover {
 	body {
 		background: none !important; /* Brute force since user agents all print differently. */
 		color: #2b2b2b;
-		font-size: 12pt;
+		/* font-size: 12pt; */
+        line-height: 1.75em;
+        font-family:'Source Sans Pro', sans-serif;
 	}
 
 	.site,
@@ -4714,23 +4746,24 @@ body.offcanvas .xwezi-nav-toggle {
 }
 
 
-#secondary .xwezi-footer {
+.xwezi-aside .xwezi-footer {
     position: absolute;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
+    line-height: 1.5;
     color: #fff;
 }
 
-#secondary .xwezi-footer p {
+.xwezi-aside .xwezi-footer p {
     font-size: 14px;
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.85);
 }
-#secondary .xwezi-footer ul {
+.xwezi-aside .xwezi-footer ul {
     display: block;
     list-style: none;
 }
-#secondary .xwezi-footer ul li{
+.xwezi-aside .xwezi-footer ul li{
     float: left;
     margin-right:10px;
 }

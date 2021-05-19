@@ -61,9 +61,9 @@
     opacity: 1;
 }
 .mobmenur-container {
-    position: absolute;     
-    right: 0px; 
-} 
+    position: absolute;
+    right: 0px;
+}
 .leftmbottom h2 {
     font-weight: bold;
     background-color: transparent;
@@ -135,7 +135,7 @@ body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel {
     opacity: 0;
 }
 .widget img {
-    max-width: 100%; 
+    max-width: 100%;
 }
 #mobmenuleft, #mobmenuright {
     margin: 0;
@@ -150,7 +150,7 @@ body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel {
     position: relative;
     right: 0px;
     float: right;
-    
+
 }
 .mobmenu-parent-link .menu-item-has-children {
     cursor: pointer;
@@ -160,7 +160,7 @@ body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel {
     left: 15px;
     padding-left: 0px;
 }
-.rightmbottom, .rightmtop {   
+.rightmbottom, .rightmtop {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -170,7 +170,7 @@ body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel {
     top: 0;
     height: 100%;
     z-index: 300000;
-    overflow-y: hidden;   
+    overflow-y: hidden;
     overflow-x: hidden;
     opacity: 1;
 }
@@ -192,7 +192,7 @@ body.admin-bar .mobmenu, body.admin-bar .mobmenu-panel {
 }
 .mob-menu-header-holder {
     font-weight:bold;
-    top:0px;	
+    top:0px;
     right: 0px;
     color:#000;
     display: block;
