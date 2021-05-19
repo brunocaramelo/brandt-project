@@ -4066,8 +4066,162 @@ a.post-thumbnail:hover {
 		padding-left: 222px;
 	}
 
+
+    .xwezi-aside {
+        margin: 30px 30px 0 30px;
+        font-family: 'Oswald', sans-serif;
+        /* width: 19%;
+        bottom: 0; */
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+    }
+
+    .xwezi-aside .xwezi-logo {
+        text-align: left;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        display: block;
+        /* max-width: 105px; */
+        color: #caae64;
+        letter-spacing: 3px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .xwezi-aside .xwezi-logo {
+            margin-bottom: 60px;
+        }
+    }
+
+    .xwezi-aside .xwezi-logo a {
+        display: inline-block;
+        text-align: left;
+        color: #caae64;
+    }
+
+    .xwezi-aside .xwezi-logo a span {
+        display: block;
+        margin-top: 0px;
+    }
+
+
+    /* list */
+
+    .xwezi-aside #xwezi-main-menu ul {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        .xwezi-aside #xwezi-main-menu ul {
+            margin: 0 0 30px 0;
+        }
+    }
+
+    .xwezi-aside #xwezi-main-menu ul li {
+        margin: 5px 0 5px 0;
+        padding: 0 0 5px 0;
+        list-style: none;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1.5em;
+    }
+
+    .xwezi-aside #xwezi-main-menu ul li a {
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 13px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        position: relative;
+        padding: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .xwezi-aside #xwezi-main-menu ul li a {
+        display: inline-block;
+    }
+
+    .xwezi-aside #xwezi-main-menu ul li a:after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background: #caae64;
+        transition: width .3s;
+        -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .xwezi-aside #xwezi-main-menu ul li a:hover::after {
+        width: 100%;
+    }
+
+    xwezi-aside .xwezi-footer {
+        position: absolute;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .xwezi-aside .xwezi-footer p {
+        font-size: 14px;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.85);
+    }
+
+    .xwezi-aside .xwezi-footer a {
+        color: #caae64;
+    }
+
+    @media screen and (max-width: 768px) {
+        .xwezi-aside .xwezi-footer {
+            position: absolute;
+        }
+    }
+
+    .xwezi-aside .xwezi-footer span {
+        display: block;
+    }
+
+    .xwezi-aside .xwezi-footer ul {
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .xwezi-aside .xwezi-footer ul li {
+        padding: 0;
+        margin: 0;
+        display: inline;
+        list-style: none;
+    }
+
+    .xwezi-aside .xwezi-footer ul li a {
+        color: #caae64;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .xwezi-aside .xwezi-footer ul li a:hover,
+    .xwezi-aside .xwezi-footer ul li a:active,
+    .xwezi-aside .xwezi-footer ul li a:focus {
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+    }
+
+
 	#secondary {
-		width: 17%;
+		width: 15%;
         border: 0;
 		clear: none;
 		float: left;
@@ -4526,7 +4680,7 @@ a.post-thumbnail:hover {
 	}
 }
 
-#secondary #xwezi-aside .xwezi-logo {
+#secondary .xwezi-aside .xwezi-logo {
     text-align: left;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
