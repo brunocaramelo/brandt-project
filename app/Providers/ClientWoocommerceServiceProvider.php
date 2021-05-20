@@ -19,7 +19,7 @@ class ClientWoocommerceServiceProvider extends ServiceProvider
         $this->app->singleton(ClientWoocommerce::class, function () {
 
             return new ClientWoocommerce(
-                        env('CMS_ORIGIN_API'),
+                        env('WC_ORIGIN_API'),
                         env('WC_CONSUMER_KEY'),
                         env('WC_CONSUMER_SECRET'),
                         [
