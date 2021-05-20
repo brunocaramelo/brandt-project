@@ -13,5 +13,6 @@ RewriteRule ^(wp-(content|admin|includes).*) $1 [L]
 RewriteRule ^(.*\.php)$ $1 [L]
 RewriteRule . index.php [L]
 
-SetEnv HTTPS on
-SetEnvIf Authorization (.+) HTTPS=on
+#SetEnv HTTPS on
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]

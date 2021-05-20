@@ -25,7 +25,7 @@ class ClientWoocommerceServiceProvider extends ServiceProvider
                         [
                             'version' => '/wc/v3',
                             'wp_api_prefix' => '/?rest_route=',
-                            'query_string_auth' => true,
+                            // 'query_string_auth' => true,
                         ]
                     );
         });
