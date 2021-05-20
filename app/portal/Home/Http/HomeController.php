@@ -13,7 +13,9 @@ class HomeController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
 
-        // dd($commerceClient->get('products'));
+        $products = $commerceClient->get('products',[
+            'on_sale'=> true
+        ]);
 
         $banner = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/pages/22', [])->json()['content']['rendered'];
 
@@ -22,6 +24,7 @@ class HomeController extends Controller
         return view('home.index', [
                                     'banner' => $banner,
                                     'testimonials' => $testimonials,
+                                    'products' => $products,
                                 ]);
     }
 

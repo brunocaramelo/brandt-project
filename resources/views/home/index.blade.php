@@ -117,22 +117,24 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="item animate-box" data-animate-effect="fadeInLeft">
-                        <div class="post-img">
-                            <a href="post.html"> <img src="img/600x400.jpg" alt=""> </a>
-                        </div>
-                        <div class="post-cont"> <a href="blog.html"><span class="tag">Tipo do curso</span></a>
-                            <h5>
-                                <a href="post.html">Curso 1</a>
-                            </h5>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi accusantium provident consequatur doloribus! Sapiente corporis.</p>
-                            <div class="info-2">27 de junho 2021</div>
-                            <div class="info-2">Cidade 1</div>
+                @foreach ( $products as $product)
+                    <div class="col-md-4">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft">
+                            <div class="post-img">
+                                <a href="post.html"> <img src="img/600x400.jpg" alt=""> </a>
+                            </div>
+                            <div class="post-cont"> <a href="blog.html"><span class="tag">Tipo do curso</span></a>
+                                <h5>
+                                    <a href="post.html">{{$description->name}}</a>
+                                </h5>
+                                <p>{{$description->description}}</p>
+                                <div class="info-2">27 de junho 2021</div>
+                                <div class="info-2">Cidade 1</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
+                @endforeach
+                {{-- <div class="col-md-4">
                     <div class="item animate-box" data-animate-effect="fadeInLeft">
                         <div class="post-img">
                             <a href="post.html"> <img src="img/600x400.jpg" alt=""> </a>
@@ -146,8 +148,8 @@
                             <div class="info-2">Cidade 2</div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
+                </div> --}}
+                {{-- <div class="col-md-4">
                     <div class="item animate-box" data-animate-effect="fadeInLeft">
                         <div class="post-img">
                             <a href="post.html"> <img src="img/600x400.jpg" alt=""> </a>
@@ -161,7 +163,7 @@
                             <div class="info-2">Cidade 2</div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
