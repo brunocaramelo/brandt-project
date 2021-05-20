@@ -15,13 +15,9 @@ class HomeController extends Controller
 
         dd($commerceClient->get('products'));
 
-        $banner = Http::get(env('CMS_ORIGIN_API'), [
-            'rest_route' => '/wp/v2/pages/22'
-        ])->json()['content']['rendered'];
+        $banner = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/pages/22', [])->json()['content']['rendered'];
 
-        $testimonials = Http::get(env('CMS_ORIGIN_API'), [
-            'rest_route' => '/sola_t/v1/get_all_testimonials'
-        ])->json()['data'];
+        $testimonials = Http::get(env('CMS_ORIGIN_API').'/wp-json/sola_t/v1/get_all_testimonials', [])->json()['data'];
 
         return view('home.index', [
                                     'banner' => $banner,

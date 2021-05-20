@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
+RewriteBase /portal/
 RewriteRule ^index\.php$ - [L]
 
 # add a trailing slash to /wp-admin
@@ -11,8 +11,21 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^ - [L]
 RewriteRule ^(wp-(content|admin|includes).*) $1 [L]
 RewriteRule ^(.*\.php)$ $1 [L]
-RewriteRule . index.php [L]
+RewriteRule . /portal/index.php [L]
 
-#SetEnv HTTPS on
-SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
-RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
+# BEGIN WordPress
+# As diretrizes (linhas) entre "BEGIN WordPress" e "END WordPress" são
+# geradas dinamicamente e só devem ser modificadas através de filtros do WordPress.
+# Quaisquer alterações nas diretivas entre esses marcadores serão sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /portal/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /portal/index.php [L]
+</IfModule>
+
+# END WordPress

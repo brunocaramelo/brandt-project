@@ -23,9 +23,8 @@ class ClientWoocommerceServiceProvider extends ServiceProvider
                         env('WC_CONSUMER_KEY'),
                         env('WC_CONSUMER_SECRET'),
                         [
-                            'version' => '/wc/v2',
-                            'wp_api_prefix' => '/?rest_route=',
-                            // 'query_string_auth' => true,
+                            'version' => 'wc/v2',
+                            'query_string_auth' => true,
                         ]
                     );
         });
