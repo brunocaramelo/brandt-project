@@ -127,7 +127,7 @@
                                 <h5>
                                     <a href="post.html">{{$product->name}}</a>
                                 </h5>
-                                <p>{{$description->description}}</p>
+                                <p>{{$product->description}}</p>
                                 <div class="info-2">27 de junho 2021</div>
                                 <div class="info-2">Cidade 1</div>
                             </div>
