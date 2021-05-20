@@ -13,9 +13,5 @@ services:
     volumes:
       - ./:/app:rw
     environment:
-      - DB_HOST_CALENDARIOFTD=calendario_ftd.mysql.dbaas.com.br
-      - DB_USER_CALENDARIOFTD=calendario_ftd
-      - DB_PASSWORD_CALENDARIOFTD=cpcinfo
-      - DB_DBNAME_CALENDARIOFTD=calendario_ftd
-      - DB_PORT_CALENDARIOFTD=3306
-      - CMS_ORIGIN_API=http://blog-local.com.br/portal/
+      - DB_HOST_CALENDARIOFTD=fasfadbaas.com.br
+      - DB_USER_CALENDARIOFTD=sdfasfas
