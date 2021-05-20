@@ -125,7 +125,7 @@
                             </div>
                             <div class="post-cont"> <a href="blog.html"><span class="tag">Tipo do curso</span></a>
                                 <h5>
-                                    <a href="post.html">{{$description->name}}</a>
+                                    <a href="post.html">{{$product->name}}</a>
                                 </h5>
                                 <p>{{$description->description}}</p>
                                 <div class="info-2">27 de junho 2021</div>
