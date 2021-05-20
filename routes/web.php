@@ -18,14 +18,9 @@ Route::get('/',
 'uses' => '\Portal\Home\Http\HomeController@index'
 ]);
 
-Route::get('/presential-courses',
-[ 'as' => 'presential-courses',
-'uses' => '\Portal\Courses\Http\CoursesController@presentialCourses'
-]);
-
-Route::get('/online-courses',
-[ 'as' => 'online-courses',
-'uses' => '\Portal\Courses\Http\CoursesController@onlineCourses'
+Route::get('/courses',
+[ 'as' => 'general-courses',
+'uses' => '\Portal\Courses\Http\CoursesController@index'
 ]);
 
 Route::get('/attendance',

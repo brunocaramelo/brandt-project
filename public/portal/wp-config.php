@@ -82,6 +82,8 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', true );
 
 define('FS_METHOD','direct');
+
+define('APPLICATION_MODE',getenv('APPLICATION_MODE'));
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

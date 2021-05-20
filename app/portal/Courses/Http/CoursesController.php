@@ -4,16 +4,18 @@ namespace Portal\Courses\Http;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Automattic\WooCommerce\Client as ClientWoocommerce;
 
 class CoursesController extends Controller
 {
-    public function onlineCourses()
+    public function index(ClientWoocommerce $commerceClient)
     {
-        return view('courses.online.index', []);
-    }
+        $products = $commerceClient->get('products',[
+            'on_sale'=> true
+        ]);
 
-    public function presentialCourses()
-    {
-        return view('courses.presential.index', []);
+        return view('courses.index', [
+            'products' => $products
+        ]);
     }
 }
