@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
 
-        dd($commerceClient->get('products'));
+        // dd($commerceClient->get('products'));
 
         $banner = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/pages/22', [])->json()['content']['rendered'];
 
