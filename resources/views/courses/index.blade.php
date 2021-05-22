@@ -48,7 +48,7 @@
                     </div>
                     <br />
                 </div>
-                <div class="row awards">
+                {{-- <div class="row awards">
                     <div class="col-md-12">
                         <div class="title"> <span>Keys</span> </div>
                     </div>
@@ -63,7 +63,7 @@
                             <a href="#"><img src="img/630x320.jpg" alt=""></a>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

@@ -128,8 +128,8 @@
                                     <a href="{{$product->permalink}}">{{$product->name}}</a>
                                 </h5>
                                 {!! $product->description !!}
-                                <div class="info-2">27 de junho 2021</div>
-                                <div class="info-2">Cidade 1</div>
+                                {{-- <div class="info-2">27 de junho 2021</div>
+                                <div class="info-2">Cidade 1</div> --}}
                             </div>
                         </div>
                     </div>
