@@ -1064,6 +1064,14 @@ span + .edit-link:before,
 }
 
 
+.site-content .page {
+	margin: 0 auto 0;
+	max-width: 95%;
+}
+.site-content .page .entry-content {
+	margin: 0 auto 0;
+	max-width: 95%;
+}
 .site-content .product .entry-content {
 	margin: 0 auto 0;
 	max-width: 95%;
