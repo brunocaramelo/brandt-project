@@ -10,12 +10,18 @@ class CoursesController extends Controller
 {
     public function index(ClientWoocommerce $commerceClient)
     {
-        $products = $commerceClient->get('products',[
-            'on_sale'=> true
+        $onlineProducts = $commerceClient->get('products',[
+            'on_sale'=> true,
+            'category'=> 17,
+        ]);
+        $presentialProducts = $commerceClient->get('products',[
+            'on_sale'=> true,
+            'category'=> 18,
         ]);
 
         return view('courses.index', [
-            'products' => $products
+            'onlineProducts' => $onlineProducts,
+            'presentialProducts' => $presentialProducts,
         ]);
     }
 }

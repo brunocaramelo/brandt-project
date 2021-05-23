@@ -69,7 +69,7 @@
     </div>
     <hr class="line-vr-section">
     <!-- Services -->
-    <section id="services" class="section-padding bg-grey" data-scroll-index="2">
+    |<section id="services" class="section-padding bg-grey" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -80,9 +80,9 @@
                 </div>
             </div>
             <div class="row services mb-60">
-                @foreach ( $products as $product)
+                @foreach ( $onlineProducts as $product)
                 <div class="col-md-6 item">
-                    <div class="position-re o-hidden"> <img src="img/600x400.jpg" alt=""> </div>
+                    <div class="position-re o-hidden"> <img src="{{$product->images[0]->src}}" alt=""> </div>
                     <div class="con">
                         <h5><a href="{{$product->permalink}}">{{$product->name}}</a></h5>
                     </div>
@@ -93,4 +93,26 @@
     </section>
     <hr class="line-vr-section">
 
+    <section id="services" class="section-padding bg-grey" data-scroll-index="2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title mb-30"> <span>Cursos</span>
+                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Presenciais</h2>
+                        <hr class="line line-hr-secondary">
+                    </div>
+                </div>
+            </div>
+            <div class="row services mb-60">
+                @foreach ( $presentialProducts as $product)
+                <div class="col-md-6 item">
+                    <div class="position-re o-hidden"> <img src="{{$product->images[0]->src}}" alt=""> </div>
+                    <div class="con">
+                        <h5><a href="{{$product->permalink}}">{{$product->name}}</a></h5>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
 @endsection

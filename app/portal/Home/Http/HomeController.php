@@ -14,7 +14,8 @@ class HomeController extends Controller
     {
 
         $products = $commerceClient->get('products',[
-            'on_sale'=> true
+            'on_sale'=> true,
+            'tag'=> 22,
         ]);
 
         $banner = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/pages/22', [])->json()['content']['rendered'];

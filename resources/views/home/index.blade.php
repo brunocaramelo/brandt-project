@@ -110,8 +110,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="title mb-30"> <span>Próximos</span>
-                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Cursos</h2>
+                    <div class="title mb-30"> <span>Cursos</span>
+                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Destaque</h2>
                         <hr class="line line-hr-secondary">
                     </div>
                 </div>
@@ -121,15 +121,17 @@
                     <div class="col-md-4">
                         <div class="item animate-box" data-animate-effect="fadeInLeft">
                             <div class="post-img">
-                                <a href="{{$product->permalink}}"> <img src="img/600x400.jpg" alt=""> </a>
+                                <a href="{{$product->permalink}}"> <img src="{{$product->images[0]->src}}" alt=""> </a>
                             </div>
                             <div class="post-cont"> <a href="{{$product->permalink}}"><span class="tag">Tipo do curso</span></a>
                                 <h5>
                                     <a href="{{$product->permalink}}">{{$product->name}}</a>
                                 </h5>
                                 {!! $product->description !!}
-                                {{-- <div class="info-2">27 de junho 2021</div>
-                                <div class="info-2">Cidade 1</div> --}}
+                                @if( !empty($product->default_attributes[0]->name))
+                                    <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
+                                @endif
+                                {{-- <div class="info-2">Cidade 1</div> --}}
                             </div>
                         </div>
                     </div>
