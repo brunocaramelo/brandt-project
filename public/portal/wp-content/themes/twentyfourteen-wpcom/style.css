@@ -1159,8 +1159,13 @@ a.post-thumbnail:hover {
 	padding: 0 10px 12px;
 }
 
+.page .entry-header {
+    margin-left: 30px;
+}
+
 .site-content .has-post-thumbnail .entry-header {
 	padding-top: 24px;
+    margin-left: 30px;
 }
 
 
