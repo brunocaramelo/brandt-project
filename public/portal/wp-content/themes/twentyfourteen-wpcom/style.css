@@ -4857,3 +4857,4 @@ body.offcanvas .xwezi-nav-toggle {
 	content: "\e73d";
 }
 
+.single-product .post-navigation { display: none!important; }
