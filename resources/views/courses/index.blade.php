@@ -82,7 +82,7 @@
             <div class="row services mb-60">
                 @foreach ( $onlineProducts as $product)
                 <div class="col-md-6 item">
-                    <div class="position-re o-hidden"> <img src="{{$product->images[0]->src}}" alt=""> </div>
+                    <div class="position-re o-hidden"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </div>
                     <div class="con">
                         <h5><a href="{{$product->permalink}}">{{$product->name}}</a></h5>
                     </div>

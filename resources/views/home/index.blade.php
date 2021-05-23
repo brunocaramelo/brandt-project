@@ -121,7 +121,7 @@
                     <div class="col-md-4">
                         <div class="item animate-box" data-animate-effect="fadeInLeft">
                             <div class="post-img">
-                                <a href="{{$product->permalink}}"> <img src="{{$product->images[0]->src}}" alt=""> </a>
+                                <a href="{{$product->permalink}}"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
                             <div class="post-cont"> <a href="{{$product->permalink}}"><span class="tag">Tipo do curso</span></a>
                                 <h5>
