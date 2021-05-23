@@ -69,7 +69,7 @@
     </div>
     <hr class="line-vr-section">
     <!-- Services -->
-    |<section id="services" class="section-padding bg-grey" data-scroll-index="2">
+    <section id="services" class="section-padding bg-grey" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

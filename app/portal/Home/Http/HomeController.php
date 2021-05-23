@@ -14,7 +14,6 @@ class HomeController extends Controller
     {
 
         $products = $commerceClient->get('products',[
-            'on_sale'=> true,
             'tag'=> 22,
         ]);
 

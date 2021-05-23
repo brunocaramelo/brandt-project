@@ -11,11 +11,9 @@ class CoursesController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
         $onlineProducts = $commerceClient->get('products',[
-            'on_sale'=> true,
             'category'=> 17,
         ]);
         $presentialProducts = $commerceClient->get('products',[
-            'on_sale'=> true,
             'category'=> 18,
         ]);
 
