@@ -15,6 +15,7 @@
 	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
 	<header class="entry-header">
 		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
+        <hr class="line line-hr-primary">
 	</header>
 	<?php endif; ?>
 

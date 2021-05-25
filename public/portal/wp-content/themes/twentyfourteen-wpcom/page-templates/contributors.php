@@ -27,7 +27,7 @@ get_header(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<?php
-					the_title( '<header class="entry-header"><h1 class="entry-title">', '</h1></header><!-- .entry-header -->' );
+					the_title( '<header class="entry-header"><h1 class="entry-title">', '</h1><hr class="line line-hr-primary" /></header><!-- .entry-header -->' );
 
 					// Output the authors list.
 					twentyfourteen_list_authors();

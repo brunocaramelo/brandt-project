@@ -1,0 +1,4 @@
+2021-05-20T01:10:24+00:00 CRITICAL syntax error, unexpected ';', expecting ')', em /app/public/portal/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php, na linha 141
+
+2021-05-20T01:10:29+00:00 CRITICAL syntax error, unexpected ';', expecting ')', em /app/public/portal/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php, na linha 141
+

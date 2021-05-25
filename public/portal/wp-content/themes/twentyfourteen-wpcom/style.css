@@ -57,6 +57,7 @@ Text Domain: twentyfourteen
  /* ======= Google Fonts (Source Sans Pro, Oswald) ======= */
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+/* @import url('bootstrap.min.css'); */
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -1126,6 +1127,17 @@ a.post-thumbnail:hover {
 	margin: 0 auto;
 }
 
+.entry-header .line-hr-primary {
+    float:left;
+    margin-bottom: 12px;
+}
+
+.line-hr-primary {
+    width: 100px;
+    border-top: 1px solid #caae64 !important;
+    border-bottom: 0px;
+}
+
 
 /**
  * 6.2 Entry Header
@@ -1138,12 +1150,21 @@ a.post-thumbnail:hover {
 }
 
 .entry-title {
-	font-size: 33px;
+	/* font-size: 33px;
 	font-weight: 300;
 	line-height: 1.0909090909;
 	margin-bottom: 12px;
 	margin: 0 0 12px 0;
-	text-transform: uppercase;
+	text-transform: uppercase; */
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 5px;
+	margin: 0 0 5px 0;
 }
 
 .entry-title a {
@@ -4856,5 +4877,126 @@ body.offcanvas .xwezi-nav-toggle {
 .ti-instagram:before {
 	content: "\e73d";
 }
+.ti-pinterest:before {
+	content: "\e73d";
+}
 
 .single-product .post-navigation { display: none!important; }
+
+.woocommerce-Price-amount {
+    color: #caae64;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.woocommerce div.product .stock{
+    color: #caae64;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt input#submit.alt:hover{
+    background-color: #000;
+    color: #caae64;
+    border: 1px solid #000;
+    border-spacing: 5px;
+}
+
+
+.line-vr-section {
+    position: relative;
+    margin: -4px 0px 0px -25%;
+    border: 0;
+    border-left: 1px solid;
+    border-color: #caae64;
+    width: 2px;
+    height: 70px;
+    z-index: 10;
+}
+
+
+
+/* ======= Footer style ======= */
+.footer-section .container {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+.footer-section {
+    background: #f7f7f7;
+    margin-left: 9%;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.footer-section .brand img {
+    max-width: 105px;
+    margin-bottom: 15px;
+}
+
+.footer-section .brand p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    line-height: 1em;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #747474;
+    margin-bottom: 15px;
+}
+
+.footer-section p b {
+    color: #caae64;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.ovon-footer-social-link {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.ovon-footer-social-link li {
+    display: inline-block;
+    background-color: #caae64;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3 ease-in-out;
+    border: 2px solid #caae64;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.ovon-footer-social-link li:hover {
+    color: #fff;
+    background-color: #99813e;
+    border: 2px solid #99813e;
+}
+
+.ovon-footer-social-link li i {
+    color: #fff;
+}
+
+.ovon-footer-social-link li i:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    font-weight: 400;
+    color: #747474;
+    font-size: 15px;
+}
+
+.footer-section p.copyright {
+    color: #747474;
+}
+
+.footer-section .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+.footer-section .colunas-md-3{position:relative;width:20%;padding-right:15px;padding-left:15px}
+.footer-section .col{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.footer-section .mb-0,.my-0{margin-bottom:0!important}
+.footer-section .container{max-width:1140px}

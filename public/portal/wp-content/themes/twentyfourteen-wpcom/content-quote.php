@@ -39,6 +39,7 @@
 
 			<?php edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' ); ?>
 		</div><!-- .entry-meta -->
+        <hr class="line line-hr-primary" />
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

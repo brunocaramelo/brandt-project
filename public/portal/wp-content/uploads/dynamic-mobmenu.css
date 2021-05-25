@@ -353,6 +353,7 @@
 	font-style:normal;
 	letter-spacing:normal;
 	text-transform:none;
+    display: none;
 }
 
 .left-menu-icon-text {
@@ -451,4 +452,8 @@
 
 .mobmenu-left-panel .xwezi-aside .xwezi-footer a {
     color: #caae64;
+}
+
+.entry-summary p.price{
+    display: none;
 }

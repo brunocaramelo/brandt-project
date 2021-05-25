@@ -193,7 +193,8 @@ class Twenty_Fourteen_Ephemera_Widget extends WP_Widget {
 							?>
 							<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
 							<?php endif; ?>
-						</div><!-- .entry-meta -->
+                        </div><!-- .entry-meta -->
+                        <hr class="line line-hr-primary">
 					</header><!-- .entry-header -->
 				</article><!-- #post-## -->
 				</li>
