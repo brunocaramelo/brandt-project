@@ -4882,12 +4882,15 @@ body.offcanvas .xwezi-nav-toggle {
 	content: "\e73d";
 }
 
-.single-product .post-navigation { display: none!important; }
 
 .woocommerce-Price-amount {
     color: #caae64;
     font-weight: bold;
     font-size: 16px;
+}
+
+.post-navigation{
+    display: none;
 }
 
 .woocommerce div.product .stock{
