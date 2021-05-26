@@ -2,7 +2,7 @@
 @section('title', 'Cursos')
 @section('content')
 
-<header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
+<header class="header valign bg-img parallaxie" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
     <div class="container" style="margin-top:420px">
         <div class="row">
             <div class="col-md-12 text-left caption">

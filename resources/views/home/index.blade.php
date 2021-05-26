@@ -2,7 +2,7 @@
 @section('title', 'Home')
 @section('content')
 
-<header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
+<header class="header valign bg-img parallaxie" style="background-position: left;" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
     <div class="container">
         {{-- <div class="row">
             <div class="col-md-12 text-left caption">
@@ -25,7 +25,7 @@
 <hr class="line-vr-section">
     <!-- About Us -->
 
-    {!! $banner !!}
+    {!! $banner  !!}
 
     <hr class="line-vr-section">
     <!-- Testimonials -->
