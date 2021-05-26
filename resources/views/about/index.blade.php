@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-12 text-left caption">
                 <hr class="line line-hr-primary animate-box" data-animate-effect="fadeInLeft">
-                <h1 class="animate-box" data-animate-effect="fadeInLeft">Dra. Patrícia</h1>
+                <h1 class="animate-box" data-animate-effect="fadeInLeft">Sobre</h1>
             </div>
         </div>
         <div class="row">
@@ -76,7 +76,7 @@
                                 <h6>{{ $testimonial['author'] }}</h6>
                             </div>
                         @endforeach
-                     /div>
+                    </div>
                 </div>
             </div>
         </div>
