@@ -2,14 +2,12 @@
 @section('title', 'Cursos')
 @section('content')
 
-<header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="4" data-background="img/1200x800.jpg">
-    <div class="container">
+<header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
+    <div class="container" style="margin-top:420px">
         <div class="row">
             <div class="col-md-12 text-left caption">
                 <hr class="line line-hr-primary animate-box" data-animate-effect="fadeInLeft">
-                <h5 class="animate-box" data-animate-effect="fadeInLeft">Quem é a</h5>
-                <h1 class="animate-box" data-animate-effect="fadeInLeft">Dra. Patrícia Brandt Schefer</h1>
-                <a href="dra-patricia.html" data-scroll-nav="1" class="btn fl-btn animate-box" data-animate-effect="fadeInLeft">Saiba mais</a>
+                <h1 class="animate-box" data-animate-effect="fadeInLeft">Cursos</h1>
             </div>
         </div>
         <div class="row">
