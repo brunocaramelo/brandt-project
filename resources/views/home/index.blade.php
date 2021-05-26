@@ -81,7 +81,7 @@
                             <div class="post-img">
                                 <a href="{{$product->permalink}}"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
-                            <div class="post-cont"> <a href="{{$product->permalink}}"><span class="tag">Tipo do curso</span></a>
+                            <div class="post-cont"> <a href="{{$product->permalink}}"><span class="tag">{{$product->categories[1]->name}}</span></a>
                                 <h5>
                                     <a href="{{$product->permalink}}">{{$product->name}}</a>
                                 </h5>
