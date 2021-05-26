@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="about-img mb-30 img-fluid animate-box" data-animate-effect="fadeInLeft" style="background-image: url(img/1000x1000.jpg);">
+                    <div class="about-img mb-30 img-fluid animate-box" data-animate-effect="fadeInLeft" style="background-image: url(img/bg-lancamento.png);">
                         <!-- <div class="about-img-2 signature" style="background-image: url(img/signature.png);"></div> -->
                     </div>
                 </div>
