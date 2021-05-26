@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-12 text-left caption">
                 <hr class="line line-hr-primary animate-box" data-animate-effect="fadeInLeft">
-                <h1 class="animate-box" data-animate-effect="fadeInLeft">Cursos</h1>
+                <h1 class="animate-box" data-animate-effect="fadeInLeft">Contato</h1>
             </div>
         </div>
         <div class="row">

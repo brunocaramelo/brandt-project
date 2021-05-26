@@ -23,9 +23,9 @@ Route::get('/courses',
 'uses' => '\Portal\Courses\Http\CoursesController@index'
 ]);
 
-Route::get('/attendance',
-[ 'as' => 'attendance',
-'uses' => '\Portal\Home\Http\HomeController@index'
+Route::get('/about',
+[ 'as' => 'about',
+'uses' => '\Portal\About\Http\AboutController@index'
 ]);
 
 Route::get('/contact',
