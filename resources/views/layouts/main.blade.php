@@ -75,9 +75,9 @@
                 <div class="col-md-3">
                     <p class="mb-0"><b>FOLLOW US</b></p>
                     <ul class="ovon-footer-social-link">
-                        <li><a href="index.html#"><i class="ti-facebook"></i></a></li>
-                        <li><a href="index.html#"><i class="ti-instagram"></i></a></li>
-                        <li><a href="index.html#"><i class="ti-pinterest"></i></a></li>
+                        <li><a href="#"><i class="ti-facebook"></i></a></li>
+                        <li><a href="#"><i class="ti-instagram"></i></a></li>
+                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
                     </ul>
                 </div>
             </div>
