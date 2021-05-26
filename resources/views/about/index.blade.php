@@ -4,12 +4,12 @@
 
 <header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg" style="background-position: left;">
     <div class="container" style="margin-top:420px">
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-md-12 text-left caption">
                 <hr class="line line-hr-primary animate-box" data-animate-effect="fadeInLeft">
                 <h1 class="animate-box" data-animate-effect="fadeInLeft">Sobre</h1>
             </div>
-        </div>
+        </div> --}}
         <div class="row">
             <div class="col-md-12">
                 <div class="arrow bounce text-center">
@@ -63,7 +63,7 @@
 
 <hr class="line-vr-section">
 <!-- Testimonials -->
-<section id="testimonials" class="testimonials testimonials-padding bg-img" data-overlay-dark="5" data-background="img/bg-depoimento.png">
+<section id="testimonials" class="testimonials testimonials-padding bg-img" style="background-position:bottom" data-overlay-dark="0" data-background="img/bg_patricia.png">
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
