@@ -2,7 +2,7 @@
 @section('title', 'Home')
 @section('content')
 
-<header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="4" data-background="img/bg-phot-dra.jpeg">
+<header class="header valign bg-img parallaxie" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
     <div class="container">
         {{-- <div class="row">
             <div class="col-md-12 text-left caption">
@@ -85,7 +85,7 @@
                                 <h5>
                                     <a href="{{$product->permalink}}">{{$product->name}}</a>
                                 </h5>
-                                {!! $product->description !!}
+                                {!! $product->short_description !!}
                                 @if( !empty($product->default_attributes[0]->name))
                                     <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
                                 @endif
