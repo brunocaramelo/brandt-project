@@ -76,24 +76,78 @@
                                 <h6>{{ $testimonial['author'] }}</h6>
                             </div>
                         @endforeach
-                        <!-- div class="testimonial-item text-center">
-                            <h5 class="mb-30">Depoimento 1 !</h5>
-                            <p><b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis debitis ducimus ratione ad impedit et consectetur officiis possimus voluptate consequuntur, eos similique vel quasi veritatis beatae exercitationem! Aperiam, neque! <b>"</b></p>
-                            <h6>Student 1</h6>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <h5 class="mb-30">Depoimento 2 !</h5>
-                            <p><b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis debitis ducimus ratione ad impedit et consectetur officiis possimus voluptate consequuntur, eos similique vel quasi veritatis beatae exercitationem! Aperiam, neque! <b>"</b></p>
-                            <h6>Student 2</h6>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <h5 class="mb-30">Depoimento 3 !</h5>
-                            <p><b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis debitis ducimus ratione ad impedit et consectetur officiis possimus voluptate consequuntur, eos similique vel quasi veritatis beatae exercitationem! Aperiam, neque! <b>"</b></p>
-                            <h6>Student 3</h6>
-                        </div -->
+                     /div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="blog section-padding bg-grey" data-scroll-index="4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title mb-30"> <span>Onde</span>
+                    <h2 class="animate-box" data-animate-effect="fadeInLeft">Países de atuação</h2>
+                    <hr class="line line-hr-secondary">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <br />
+                    <br />
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="item animate-box" data-animate-effect="fadeInLeft">
+                    <div class="post-cont"> <span class="tag">Brasil</span>
+                        <h5>
+                            Cursos e palestras
+                        </h5>
+                        <p>
+                            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-4">
+                <div class="item animate-box" data-animate-effect="fadeInLeft">
+                    <div class="post-cont"> <span class="tag">Portugal</span>
+                        <h5>
+                            Palestras
+                        </h5>
+                        <p>
+                            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="item animate-box" data-animate-effect="fadeInLeft">
+                    <div class="post-cont"> <span class="tag">Mundo</span>
+                        <h5>
+                            Online
+                        </h5>
+                        <p>
+                            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
