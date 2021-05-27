@@ -4,12 +4,12 @@
 
 <header class="header valign bg-img parallaxie" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
     <div class="container" style="margin-top:420px">
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-md-12 text-left caption">
                 <hr class="line line-hr-primary animate-box" data-animate-effect="fadeInLeft">
                 <h1 class="animate-box" data-animate-effect="fadeInLeft">Cursos</h1>
             </div>
-        </div>
+        </div> --}}
         <div class="row">
             <div class="col-md-12">
                 <div class="arrow bounce text-center">

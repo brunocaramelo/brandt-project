@@ -4927,10 +4927,10 @@ body.offcanvas .xwezi-nav-toggle {
 
 
 .footer-section {
-    background: #f7f7f7;
-    margin-left: 9%;
+    /* background: #f7f7f7; */
+    margin-left: 17%;
     padding: 120px 0;
-    width: 100%;
+    width: 83%;
 }
 
 .footer-section .brand img {
@@ -5001,7 +5001,7 @@ body.offcanvas .xwezi-nav-toggle {
 }
 
 .footer-section .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
-.footer-section .colunas-md-3{position:relative;width:20%;padding-right:15px;padding-left:15px}
+.footer-section .colunas-md-3{position:relative;width:20%;padding-right:15px;padding-left:25px}
 .footer-section .col{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .footer-section .mb-0,.my-0{margin-bottom:0!important}
 .footer-section .container{max-width:1140px}

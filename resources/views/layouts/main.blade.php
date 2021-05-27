@@ -58,27 +58,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="brand"> <img src="img/logo-dark.png" class="logo" alt="">
-                        <p><small>&copy; 2020 OVON.</small></p>
+                    <div class="brand"> <img src="img/logocinza.png" class="logo" alt="">
+                        <p><small>&copy; 2021 Patricia Sheffer.</small></p>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <p><b>Get in touch</b>
-                        <br>makeup@ovon.com
-                        <br>+1 650 444 0000</p>
+                    <p><b>Contato</b>
+                        <br><a href="#">Alunos</a>
+                        <br><a href="#">Pacientes Modelos</a>
+                        <br><a href="#">Endereço do Instituto</a>
+                        </p>
                 </div>
                 <div class="col-md-3">
-                    <p><b>Location</b>
-                        <br>525 West Ave, CT 06850
-                        <br>Connecticut — Norwalk</p>
-                </div>
-                <div class="col-md-3">
-                    <p class="mb-0"><b>FOLLOW US</b></p>
+                    <p class="mb-0"><b>Redes Sociais</b></p>
                     <ul class="ovon-footer-social-link">
                         <li><a href="#"><i class="ti-facebook"></i></a></li>
                         <li><a href="#"><i class="ti-instagram"></i></a></li>
                         <li><a href="#"><i class="ti-pinterest"></i></a></li>
                     </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="brand">
+                        <p class="mb-0"><b>ABRAHOF</b></p>
+                        <img src="img/logo-abraof.png" class="logo" alt="">
+                    </div>
                 </div>
             </div>
         </div>
