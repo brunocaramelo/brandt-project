@@ -19,7 +19,7 @@
     <div class="container">
             <div class="row">
                 <div class="colunas-md-3">
-                    <div class="brand"> <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logocinza.png" class="logo" alt="">
+                    <div class="logo"> <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logocinza.png" class="logo" alt="">
                         <p><small>&copy; 2021 Patricia Sheffer.</small></p>
                     </div>
                 </div>

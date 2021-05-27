@@ -1030,7 +1030,10 @@ body.offcanvas .xwezi-nav-toggle {
     width: 100%;
     background-size: cover;
 }
-
+.footer-section .logo img {
+    max-width: 161px;
+    margin-bottom: 15px;
+}
 .slider .item .caption,
 .slider-fade .item .caption {
     z-index: 9;

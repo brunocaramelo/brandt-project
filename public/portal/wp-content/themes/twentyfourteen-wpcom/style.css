@@ -4927,7 +4927,7 @@ body.offcanvas .xwezi-nav-toggle {
 
 
 .footer-section {
-    /* background: #f7f7f7; */
+    background: #f7f7f7;
     margin-left: 17%;
     padding: 120px 0;
     width: 83%;
@@ -4935,6 +4935,10 @@ body.offcanvas .xwezi-nav-toggle {
 
 .footer-section .brand img {
     max-width: 105px;
+    margin-bottom: 15px;
+}
+.footer-section .logo img {
+    max-width: 161px;
     margin-bottom: 15px;
 }
 
