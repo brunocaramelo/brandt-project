@@ -85,7 +85,7 @@
                                 <h5>
                                     <a href="{{$product->permalink}}">{{$product->name}}</a>
                                 </h5>
-                                {!! $product->short_description !!}
+                                <div class="post-cont-description-course">{!! \Illuminate\Support\Str::limit($product->short_description, 150, $end='...') !!}</div>
                                 @if( !empty($product->default_attributes[0]->name))
                                     <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
                                 @endif
@@ -97,6 +97,5 @@
             </div>
         </div>
     </section>
-
     @include('layouts.contact-form')
 @endsection
