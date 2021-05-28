@@ -20,7 +20,7 @@
                             <p><b>Address</b> : 525 West Ave, CT 06850 Norwalk</p>
                         </div>
                         <div class="item">
-                            <p><b>Email</b> : makeup@ovon.com</p>
+                            <p><b>Email</b> : atendimento@patriciabs.com.br</p>
                         </div>
                         <div class="item">
                             <p><b>Working H.</b> : Mon-Fri: 08.00 - 19.00, Sunday: Closed</p>

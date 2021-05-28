@@ -1522,6 +1522,9 @@ body.offcanvas .xwezi-nav-toggle {
     padding: 15px 30px 30px 30px;
     background-color: #fff;
 }
+.blog .post-cont-container {
+    height: 301px;
+}
 
 .blog .post-cont .tag {
     font-size: 12px;

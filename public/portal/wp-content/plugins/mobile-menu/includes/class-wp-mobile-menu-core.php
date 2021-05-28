@@ -544,8 +544,7 @@ class WP_Mobile_Menu_Core
             ?>
             <div class="xwezi-footer">
                 <div class="separator"></div>
-                <p>+1 650 444 0000</p>
-                <p>makeup@ovon.com</p>
+                <p>atendimento@patriciabs.com.br</p>
                 <ul>
                     <li><a href="https://www.facebook.com/drapatriciabrandtschefer"><i class="ti-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/patriciabschefer/"><i class="ti-instagram"></i></a></li>
