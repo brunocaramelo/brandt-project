@@ -85,7 +85,7 @@
                                 <h5>
                                     <a href="{{$product->permalink}}">{{$product->name}}</a>
                                 </h5>
-                                <div class="post-cont-description-course">{!! \Illuminate\Support\Str::limit($product->short_description, 150, $end='...') !!}</div>
+                                <div class="post-cont-description-course">{{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 150, $end='...') }}</div>
                                 @if( !empty($product->default_attributes[0]->name))
                                     <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
                                 @endif
