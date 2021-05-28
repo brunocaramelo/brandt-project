@@ -26,6 +26,7 @@ class ClientWoocommerceServiceProvider extends ServiceProvider
                             'version' => 'wc/v3',
                             'wp_api' => true,
                             'query_string_auth' => true,
+                            'timeout' => 9000,
                         ]
                     );
         });
