@@ -1521,9 +1521,7 @@ body.offcanvas .xwezi-nav-toggle {
 .blog .post-cont {
     padding: 15px 30px 30px 30px;
     background-color: #fff;
-}
-.blog .post-cont-container {
-    height: 301px;
+    height: 281px;
 }
 
 .blog .post-cont .tag {
