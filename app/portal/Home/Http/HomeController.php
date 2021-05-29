@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
 
-        $products = $commerceClient->get('product', [
+        $products = $commerceClient->get('products', [
             'tag'=> 22,
         ]);
 
