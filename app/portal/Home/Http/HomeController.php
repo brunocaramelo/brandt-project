@@ -3,9 +3,9 @@
 namespace Portal\Home\Http;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
+
 use Automattic\WooCommerce\Client as ClientWoocommerce;
+use Illuminate\Support\Facades\Http;
 
 class HomeController extends Controller
 {
@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
 
-        $products = $commerceClient->get('products',[
+        $products = $commerceClient->get('product', [
             'tag'=> 22,
         ]);
 

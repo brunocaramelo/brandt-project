@@ -3,17 +3,17 @@
 namespace Portal\Courses\Http;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+
 use Automattic\WooCommerce\Client as ClientWoocommerce;
 
 class CoursesController extends Controller
 {
     public function index(ClientWoocommerce $commerceClient)
     {
-        $onlineProducts = $commerceClient->get('products',[
+        $onlineProducts = $commerceClient->get('products', [
             'category'=> 17,
         ]);
-        $presentialProducts = $commerceClient->get('products',[
+        $presentialProducts = $commerceClient->get('products', [
             'category'=> 18,
         ]);
 
