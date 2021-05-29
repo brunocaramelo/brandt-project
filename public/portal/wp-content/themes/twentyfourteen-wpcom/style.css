@@ -4882,8 +4882,12 @@ body.offcanvas .xwezi-nav-toggle {
 .ti-pinterest:before {
 	content: "\e73d";
 }
-
-
+.ti-youtube:before {
+	content: "\e728";
+}
+.ti-email:before {
+	content: "\e75a";
+}
 .woocommerce-Price-amount {
     color: #caae64;
     font-weight: bold;
