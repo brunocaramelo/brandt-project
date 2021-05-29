@@ -82,7 +82,7 @@
                 <div class="col-md-6 item">
                     <div class="position-re o-hidden"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </div>
                     <div class="con">
-                        <h5><a href="{{$product->permalink}}">{{$product->name}}</a></h5>
+                        <h5><a href=""@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST"),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"">{{$product->name}}</a></h5>
                     </div>
                 </div>
                 @endforeach
@@ -106,7 +106,7 @@
                 <div class="col-md-6 item">
                     <div class="position-re o-hidden"> <img src="{{$product->images[0]->src}}" alt=""> </div>
                     <div class="con">
-                        <h5><a href="{{$product->permalink}}">{{$product->name}}</a></h5>
+                        <h5><a href=""@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST"),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"">{{$product->name}}</a></h5>
                     </div>
                 </div>
                 @endforeach

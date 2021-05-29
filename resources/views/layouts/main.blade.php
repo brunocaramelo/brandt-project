@@ -40,11 +40,11 @@
     <!-- Sidebar Footer -->
     <div class="xwezi-footer">
         <div class="separator"></div>
-        <p>+1 650 444 0000</p>
-        <p>makeup@ovon.com</p>
+        <p>atendimento@patriciabs.com.br</p>
         <ul>
             <li><a href="https://www.facebook.com/drapatriciabrandtschefer"><i class="ti-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/patriciabschefer/"><i class="ti-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCIOei5WlqVtUrjWqbZ6jhPQ"><i class="ti-youtube"></i></a></li>
         </ul>
     </div>
     </aside>
@@ -72,9 +72,9 @@
                 <div class="col-md-3">
                     <p class="mb-0"><b>Redes Sociais</b></p>
                     <ul class="ovon-footer-social-link">
-                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                        <li><a href="#"><i class="ti-instagram"></i></a></li>
-                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        <li><a href="https://www.facebook.com/drapatriciabrandtschefer"><i class="ti-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/patriciabschefer/"><i class="ti-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCIOei5WlqVtUrjWqbZ6jhPQ"><i class="ti-youtube"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">

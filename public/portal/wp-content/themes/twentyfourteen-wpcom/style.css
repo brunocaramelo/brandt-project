@@ -5021,3 +5021,7 @@ body.offcanvas .xwezi-nav-toggle {
 /* .entry-summary p.price{
     display: none;
 } */
+
+.single-product .product .related  {
+    display: none !important;
+}
