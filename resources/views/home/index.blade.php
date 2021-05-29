@@ -79,11 +79,11 @@
                     <div class="col-md-4">
                         <div class="item animate-box" data-animate-effect="fadeInLeft">
                             <div class="post-img">
-                                <a href=""@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif""> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
+                                <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
                             <div class="post-cont post-cont-container"> <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST"),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"><span class="tag">{{$product->categories[1]->name}}</span></a>
                                 <h5>
-                                    <a href=""@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"">{{$product->name}}</a>
+                                    <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif">{{$product->name}}</a>
                                 </h5>
                                 <div class="post-cont-description-course">{{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 90, $end='...') }}</div>
                                 @if( !empty($product->default_attributes[0]->name))
