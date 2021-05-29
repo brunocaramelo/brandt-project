@@ -548,6 +548,7 @@ class WP_Mobile_Menu_Core
                 <ul>
                     <li><a href="https://www.facebook.com/drapatriciabrandtschefer"><i class="ti-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/patriciabschefer/"><i class="ti-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCIOei5WlqVtUrjWqbZ6jhPQ"><i class="ti-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
