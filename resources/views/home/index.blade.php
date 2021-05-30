@@ -94,8 +94,8 @@
                     </div>
                 </div>
             </div>
-            @foreach ( $videos as $video)
             <div class="row mb-30">
+            @foreach ( $videos as $video)
                 <div class="col-md-4 gallery-item">
                     <a href="{{$video["source_url"]}}" title="" class="img-zoom">
                         <div class="gallery-box">
