@@ -42,21 +42,6 @@
                                     <h6>{{ $testimonial['author'] }}</h6>
                                 </div>
                             @endforeach
-                            <!-- div class="testimonial-item text-center">
-                                <h5 class="mb-30">Depoimento 1 !</h5>
-                                <p><b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis debitis ducimus ratione ad impedit et consectetur officiis possimus voluptate consequuntur, eos similique vel quasi veritatis beatae exercitationem! Aperiam, neque! <b>"</b></p>
-                                <h6>Student 1</h6>
-                            </div>
-                            <div class="testimonial-item text-center">
-                                <h5 class="mb-30">Depoimento 2 !</h5>
-                                <p><b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis debitis ducimus ratione ad impedit et consectetur officiis possimus voluptate consequuntur, eos similique vel quasi veritatis beatae exercitationem! Aperiam, neque! <b>"</b></p>
-                                <h6>Student 2</h6>
-                            </div>
-                            <div class="testimonial-item text-center">
-                                <h5 class="mb-30">Depoimento 3 !</h5>
-                                <p><b>"</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis debitis ducimus ratione ad impedit et consectetur officiis possimus voluptate consequuntur, eos similique vel quasi veritatis beatae exercitationem! Aperiam, neque! <b>"</b></p>
-                                <h6>Student 3</h6>
-                            </div -->
                         </div>
                     </div>
                 </div>
@@ -89,7 +74,6 @@
                                 @if( !empty($product->default_attributes[0]->name))
                                     <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
                                 @endif
-                                {{-- <div class="info-2">Cidade 1</div> --}}
                             </div>
                         </div>
                     </div>
@@ -97,5 +81,35 @@
             </div>
         </div>
     </section>
+
+    <hr class="line-vr-section">
+
+    <section id="portfolio" class="section-padding" data-scroll-index="3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title mb-30"> <span>Ultimos</span>
+                        <h2 class="animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">Vídeos</h2>
+                        <hr class="line line-hr-secondary">
+                    </div>
+                </div>
+            </div>
+            @foreach ( $videos as $video)
+            <div class="row mb-30">
+                <div class="col-md-4 gallery-item">
+                    <a href="{{$video["source_url"]}}" title="" class="img-zoom">
+                        <div class="gallery-box">
+                            <div class="gallery-img">
+                                {{$video["description"]["rendered"]}}
+                                {{-- <img src="img/1200x800.jpg" class="img-fluid mx-auto d-block" alt=""> </div> --}}
+                            <div class="gallery-detail text-center"> <i class="ti-plus"></i> </div>
+                        </div>
+                    </a>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
     @include('layouts.contact-form')
 @endsection

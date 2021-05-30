@@ -21,10 +21,15 @@ class HomeController extends Controller
 
         $testimonials = Http::get(env('CMS_ORIGIN_API').'/wp-json/sola_t/v1/get_all_testimonials', [])->json()['data'];
 
+        $videos = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/media', [
+            'mime_type' => 'video/mp4'
+        ])->json();
+
         return view('home.index', [
                                     'banner' => $banner,
                                     'testimonials' => $testimonials,
                                     'products' => $products,
+                                    'videos' => $videos,
                                 ]);
     }
 
