@@ -100,7 +100,7 @@
                     <a href="{{$video["source_url"]}}" title="" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img">
-                                {{$video["description"]["rendered"]}}
+                                {{!! $video["description"]["rendered"] !!}}
                                 {{-- <img src="img/1200x800.jpg" class="img-fluid mx-auto d-block" alt=""> </div> --}}
                             <div class="gallery-detail text-center"> <i class="ti-plus"></i> </div>
                         </div>
