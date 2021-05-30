@@ -98,17 +98,13 @@
             @foreach ( $videos as $video)
                 <div class="col-md-4 gallery-item">
                     <a href="{{$video["source_url"]}}" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img">
-                                teste
-                               {{-- {!! $video["caption"]["rendered"] !!} --}}
-                            <div class="gallery-detail text-center"> <i class="ti-plus"></i> </div>
-                        </div>
+                        sdadsa
+
                     </a>
                 </div>
             @endforeach
-            </div>
         </div>
+    </div>
     </section>
 
     @include('layouts.contact-form')
