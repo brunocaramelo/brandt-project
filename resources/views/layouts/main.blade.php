@@ -31,7 +31,7 @@
      <aside id="xwezi-aside">
          <!-- Logo -->
          <div class="xwezi-logo">
-             <a href="index.html">
+             <a href="/">
                  <img src="img/logo-dark.png" alt="">
              </a>
         </div>
