@@ -100,13 +100,13 @@
                     <a href="{{$video["source_url"]}}" title="" class="img-zoom">
                         <div class="gallery-box">
                             <div class="gallery-img">
-                                {!! $video["caption"]["rendered"] !!}
-                                {{-- <img src="img/1200x800.jpg" class="img-fluid mx-auto d-block" alt=""> </div> --}}
+                                teste
+                               {{-- {!! $video["caption"]["rendered"] !!} --}}
                             <div class="gallery-detail text-center"> <i class="ti-plus"></i> </div>
                         </div>
                     </a>
                 </div>
-                @endforeach
+            @endforeach
             </div>
         </div>
     </section>
