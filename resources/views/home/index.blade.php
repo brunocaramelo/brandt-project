@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Home')
+@section('title', 'Home | Patricia Brandt')
 @section('content')
 
 <header class="header valign bg-img parallaxie" style="background-position: left;" data-scroll-index="0" data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
