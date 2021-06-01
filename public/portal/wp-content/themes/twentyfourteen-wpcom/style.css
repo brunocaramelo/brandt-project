@@ -4905,11 +4905,10 @@ body.offcanvas .xwezi-nav-toggle {
     border-spacing: 5px;
 }
 
-.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover{
+.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover, .woocommerce .checkout-button:hover{
     background-color: #000;
     color: #caae64;
 }
-
 
 .line-vr-section {
     position: relative;
