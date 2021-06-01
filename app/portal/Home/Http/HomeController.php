@@ -25,8 +25,6 @@ class HomeController extends Controller
             'mime_type' => 'video/mp4'
         ])->json();
 
-        // dd($videos);
-
         return view('home.index', [
                                     'banner' => $banner,
                                     'testimonials' => $testimonials,
