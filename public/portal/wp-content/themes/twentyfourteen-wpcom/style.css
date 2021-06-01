@@ -4898,11 +4898,16 @@ body.offcanvas .xwezi-nav-toggle {
     color: #caae64;
 }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt input#submit.alt:hover{
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt input#submit.alt:hover {
     background-color: #000;
     color: #caae64;
     border: 1px solid #000;
     border-spacing: 5px;
+}
+
+.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover{
+    background-color: #000;
+    color: #caae64;
 }
 
 
