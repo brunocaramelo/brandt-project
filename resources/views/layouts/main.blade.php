@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mlkb.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -101,5 +102,6 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/mklb.js"></script>
 </body>
 </html>

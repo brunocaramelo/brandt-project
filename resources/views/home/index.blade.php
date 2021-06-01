@@ -97,10 +97,15 @@
             <div class="row mb-30">
             @foreach ( $videos as $video)
                 <div class="col-md-4 gallery-item">
-                    <a href="{{$video["source_url"]}}" title="" class="img-zoom">
-                        <div class="gallery-box">
-                            <div class="gallery-img">
-                               {!! $video["description"]["rendered"] !!}
+                    <a href="javascript:void(0)" title="" class="mklbItem demo" data-video-src="{{$video["source_url"]}}">
+                        <div class="gallery-boxs">
+                            <div class="gallery-imgs">
+                               {{-- {{$video["source_url"]}} --}}
+                               <div style="width: 310px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+                                    <video class="wp-video-shortcode" id="video-144-1" width="300" height="250" preload="metadata">
+                                        <source type="video/mp4" src="{{$video["source_url"]}}?_=1" />
+                                    </video>
+                                </div>
                                 <div class="gallery-detail text-center"> <i class="ti-plus"></i> </div>
                             </div>
                         </div>
@@ -110,6 +115,8 @@
         </div>
     </div>
     </section>
+
+    <hr class="line-vr-section">
 
     @include('layouts.contact-form')
 @endsection
