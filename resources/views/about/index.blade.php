@@ -63,7 +63,7 @@
 
 <hr class="line-vr-section">
 <!-- Testimonials -->
-<section id="testimonials" class="testimonials testimonials-padding bg-img" style="background-position:bottom" data-overlay-dark="0" data-background="img/bg_patricia.png">
+<section id="testimonials" class="testimonials testimonials-padding bg-img" style="background-position:bottom" data-overlay-dark="0" data-background="img/bg_depoimento_paty.gif">
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
