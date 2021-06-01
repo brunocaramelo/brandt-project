@@ -32,3 +32,8 @@ Route::get('/contact',
 [ 'as' => 'contact',
 'uses' => '\Portal\Contact\Http\ContactController@index'
 ]);
+
+Route::get('/institute',
+[ 'as' => 'institute',
+'uses' => '\Portal\Institute\Http\InstituteController@index'
+]);
