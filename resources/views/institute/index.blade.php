@@ -43,10 +43,6 @@
             </div>
         </div>
 
-        <div class="row">
-            <img src="img/bg-instituto-page.jpg" style="width: 95%" />
-        </div>
-
         <br />
         <br />
 
