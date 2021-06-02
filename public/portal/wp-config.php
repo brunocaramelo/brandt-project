@@ -85,6 +85,11 @@ define('FS_METHOD','direct');
 
 define('APPLICATION_MODE',getenv('APPLICATION_MODE'));
 
+
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
