@@ -2,7 +2,7 @@
 @section('title', 'Cursos | Patricia Brandt')
 @section('content')
 
-<header class="header valign bg-img parallaxie" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/bg-phot-dra.jpeg">
+<header class="header valign bg-img parallaxie" id="banner-top" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/bg-banner-contact-01.jpg">
     <div class="container" style="margin-top:420px">
         {{-- <div class="row">
             <div class="col-md-12 text-left caption">
@@ -114,3 +114,31 @@
         </div>
     </section>
 @endsection
+
+<script>
+(function(){
+
+    let indice = 1,
+    quantidadeBanners = 3
+
+    function trocaBanner(numeroBanner) {
+        $(`#banner-top`)
+        .attr(`data-background`, 'img/bg-banner-contact-0'+numeroBanner+'.jpg')
+        .css('background-image','url("img/bg-banner-contact-0'+numeroBanner+'.jpg")')
+
+    }
+
+    setInterval( function(){
+
+        if(indice > quantidadeBanners){
+            indice = 1
+        }
+
+        trocaBanner(indice)
+
+        indice++
+
+    }, 4000)
+
+    })()
+</script>
