@@ -117,34 +117,3 @@
     </section>
 
  @endsection
-
-<script>
-(function(){
-
-    let indice = 1,
-    quantidadeBanners = 3
-
-    function trocaBanner(numeroBanner) {
-        $(`#banner-top`).fadeOut('slow');
-
-        $(`#banner-top`)
-        .attr(`data-background`, 'img/bg-banner-contact-0'+numeroBanner+'.jpg')
-        .css('background-image','url("img/bg-banner-contact-0'+numeroBanner+'.jpg")');
-
-        $(`#banner-top`).fadeIn('slow');
-    }
-
-    setInterval( function(){
-
-        if(indice > quantidadeBanners){
-            indice = 1
-        }
-
-        trocaBanner(indice)
-
-        indice++
-
-    }, 4000)
-
-    })()
-</script>

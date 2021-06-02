@@ -294,4 +294,27 @@
         });
     }
 
+
+    let indice = 1,
+    quantidadeBanners = 3
+    setInterval( function(){
+        if(indice > quantidadeBanners){
+            indice = 1
+        }
+        trocaBanner(indice)
+        indice++
+    }, 4000)
+
+
 })(jQuery);
+
+
+function trocaBanner(numeroBanner) {
+    $(`#banner-top`).fadeOut('slow');
+
+    $(`#banner-top`)
+    .attr(`data-background`, 'img/bg-banner-contact-0'+numeroBanner+'.jpg')
+    .css('background-image','url("img/bg-banner-contact-0'+numeroBanner+'.jpg")');
+
+    $(`#banner-top`).fadeIn('slow');
+}
