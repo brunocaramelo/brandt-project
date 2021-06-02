@@ -590,6 +590,3 @@ function prepare_product_images($response, $post, $request) {
     }
 
 add_filter("woocommerce_rest_prepare_product_object", "prepare_product_images", 10, 3);
-
-update_option( 'siteurl', getenv('CMS_ORIGIN_API') );
-update_option( 'home', getenv('CMS_ORIGIN_API') );

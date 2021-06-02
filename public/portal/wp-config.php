@@ -86,12 +86,6 @@ define('FS_METHOD','direct');
 define('APPLICATION_MODE',getenv('APPLICATION_MODE'));
 
 
-define('FORCE_SSL_LOGIN', true);
-define('FORCE_SSL_ADMIN', true);
-
-define('WP_HOME', getenv('CMS_ORIGIN_API'));
-define('WP_SITEURL', getenv('CMS_ORIGIN_API'));
-
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
