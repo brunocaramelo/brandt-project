@@ -89,9 +89,11 @@
             </div>
         </div>
     </section>
+
+
     <hr class="line-vr-section">
 
-    <section id="services" class="section-padding bg-grey" data-scroll-index="2">
+    <section id="services" class="section-padding bg-grey" data-scroll-index="2" style="min-height: 2440px">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -113,7 +115,8 @@
             </div>
         </div>
     </section>
-@endsection
+
+ @endsection
 
 <script>
 (function(){
