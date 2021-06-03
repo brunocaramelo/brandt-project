@@ -12,15 +12,21 @@ $(".btn-submit-contact").click(function(e){
     var message = $("textarea[name=message]").val();
     var email = $("input[name=email]").val();
 
+    $('.message-contact-envited').fadeOut();
+
     $.ajax({
-    type:'POST',
-    url: contactFormTargetEndpoint,
-    data:{
-        name:name,
-        message:message,
-        email:email
+        type:'POST',
+        url: contactFormTargetEndpoint,
+        data:{
+            name:name,
+            message:message,
+            email:email
     },success:function(data){
-        alert(data.success);
+        $("input[name=name]").val('')
+        $("textarea[name=message]").val('')
+        $("input[name=email]").val('')
+
+        $('.message-contact-envited').fadeIn("fast");
     }
     });
 
