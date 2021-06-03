@@ -18,7 +18,7 @@ class ContactController extends Controller
 
     public function sendDefault(Request $params)
     {
-        Notification::route('mail', env('MAIL_DEFAULT_TO'))
+        Notification::route('mail', config('app.mail.attendance_address'))
             ->notify(new \App\Notifications\ContactDefault($params));
 
         return response()->json(['status' => 'success']);
