@@ -20,8 +20,8 @@ class CoursesController extends Controller
 
         $eadBoxContent = Http::get(config('cms.api_url').'pages/162', [
             'slug' => 'course-ead-box'
-        ])->json();
-        dd($eadBoxContent);
+        ])->json()['content']['rendered'];
+
         return view('courses.index', [
             'eadBox' => $eadBoxContent,
             'onlineProducts' => $onlineProducts,
