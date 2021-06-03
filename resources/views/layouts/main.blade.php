@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mlkb.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -103,5 +104,6 @@
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/mklb.js"></script>
+    <script src="js/contact-forms.js"></script>
 </body>
 </html>

@@ -28,14 +28,14 @@
                     </div>
                     <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                         <p><b>GET IN TOUCH</b></p>
-                        <form method="post" class="row">
+                        <form class="row" id="contact-default-form">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nome *" required> </div>
+                                    <input type="text" class="form-control" placeholder="Nome *" required name="name"> </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email"> </div>
+                                    <input type="text" class="form-control" placeholder="Email" name="email"> </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="form-group">
@@ -45,7 +45,7 @@
                             </div>
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <button class="btn fl-btn" type="submit">Enviar</button>
+                                    <button class="btn fl-btn btn-submit-contact" type="submit">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -53,3 +53,6 @@
                 </div>
             </div>
         </section>
+<script type="text/javascript">
+    var contactFormTargetEndpoint = "{{ route('send-contact-default') }}";
+</script>

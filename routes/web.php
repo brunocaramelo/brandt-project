@@ -32,6 +32,10 @@ Route::get('/contact',
 [ 'as' => 'contact',
 'uses' => '\Portal\Contact\Http\ContactController@index'
 ]);
+Route::post('/contact',
+[ 'as' => 'send-contact-default',
+'uses' => '\Portal\Contact\Http\ContactController@sendDefault'
+]);
 
 Route::get('/institute',
 [ 'as' => 'institute',
