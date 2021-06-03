@@ -12,8 +12,8 @@ class InstituteController extends Controller
     {
         $instituteContent = Http::get(config('cms.api_url').'pages/', [
             'slug' => 'institute-content'
-        ])->json()['content']['rendered'];
-
+        ])->json()[0]['content']['rendered'];
+        
         return view('institute.index', [
             'content' => $instituteContent
         ]);

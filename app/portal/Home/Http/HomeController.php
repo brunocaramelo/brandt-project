@@ -19,7 +19,7 @@ class HomeController extends Controller
 
         $banner = Http::get(config('cms.api_url').'pages/', [
             'slug' => 'banner-home'
-        ])->json()['content']['rendered'];
+        ])->json()[0]['content']['rendered'];
 
         $testimonials = Http::get(config('cms.api_testimonial_url').'get_all_testimonials', [])->json()['data'];
 

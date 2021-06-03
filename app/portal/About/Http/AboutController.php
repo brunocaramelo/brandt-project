@@ -12,11 +12,11 @@ class AboutController extends Controller
     {
         $aboutIntroduction = Http::get(config('cms.api_url').'pages/', [
             'slug' => 'about-introduction'
-        ])->json()['content']['rendered'];
+        ])->json()[0]['content']['rendered'];
         
         $aboutActuation = Http::get(config('cms.api_url').'pages/', [
             'slug' => 'about-actuation'
-        ])->json()['content']['rendered'];
+        ])->json()[0]['content']['rendered'];
         
         $testimonials = Http::get(config('cms.api_testimonial_url').'get_all_testimonials', [])->json()['data'];
 
