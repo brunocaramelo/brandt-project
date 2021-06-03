@@ -8,9 +8,7 @@ $(".btn-submit-contact").click(function(e){
 
     e.preventDefault();
 
-    var name = $("input[name=name]").val();
-    var message = $("textarea[name=message]").val();
-    var email = $("input[name=email]").val();
+    $('.btn-submit-contact').attr('disabled', true);
 
     $('.message-contact-envited').fadeOut();
 
@@ -18,15 +16,20 @@ $(".btn-submit-contact").click(function(e){
         type:'POST',
         url: contactFormTargetEndpoint,
         data:{
-            name:name,
-            message:message,
-            email:email
-    },success:function(data){
+            name: $("input[name=name]").val(),
+            message: $("textarea[name=message]").val(),
+            email: $("input[name=email]").val()
+        }
+    ,success:function(data){
+
         $("input[name=name]").val('')
         $("textarea[name=message]").val('')
         $("input[name=email]").val('')
 
         $('.message-contact-envited').fadeIn("fast");
+
+        $('.btn-submit-contact').attr('disabled', false);
+
     }
     });
 
