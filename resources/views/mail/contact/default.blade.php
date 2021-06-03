@@ -18,7 +18,9 @@
     </tbody>
 </table>
 
-
+<br />
+<br />
+<br />
 Obrigado,<br>
 {{ config('app.name') }}
 @endcomponent
