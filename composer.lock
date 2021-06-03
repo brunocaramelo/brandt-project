@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7445978dbddf255fa2313ee3aa0eb1ab",
+    "content-hash": "a389bb8c442b40f7df7d2d0dd600e4f8",
     "packages": [
         {
             "name": "ahsankhatri/wordpress-auth-provider",

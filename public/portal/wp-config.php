@@ -1,4 +1,10 @@
 <?php
+
+require_once __DIR__.'/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../../');
+$dotenv->safeLoad();
+
 /**
  * The base configuration for WordPress
  *
@@ -22,16 +28,16 @@
 /** The name of the database for WordPress */
 ini_set( 'display_errors', 'Off' );
 
-define( 'DB_NAME', getenv('WORDPRESS_DB_NAME') );
+define( 'DB_NAME', $_ENV['WORDPRESS_DB_NAME'] );
 
 /** MySQL database username */
-define( 'DB_USER', getenv('WORDPRESS_DB_USER'));
+define( 'DB_USER', $_ENV['WORDPRESS_DB_USER']);
 
 /** MySQL database password */
-define( 'DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') );
+define( 'DB_PASSWORD', $_ENV['WORDPRESS_DB_PASSWORD'] );
 
 /** MySQL hostname */
-define( 'DB_HOST', getenv('WORDPRESS_DB_HOST') );
+define( 'DB_HOST', $_ENV['WORDPRESS_DB_HOST'] );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -83,7 +89,7 @@ define( 'WP_DEBUG', false );
 
 define('FS_METHOD','direct');
 
-define('APPLICATION_MODE',getenv('APPLICATION_MODE'));
+define('APPLICATION_MODE',$_ENV['APPLICATION_MODE']);
 
 
 /* That's all, stop editing! Happy publishing. */
