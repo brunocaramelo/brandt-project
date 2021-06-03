@@ -17,7 +17,10 @@ class CoursesController extends Controller
             'category'=> 18,
         ]);
 
+        $eadBoxContent = Http::get(config('cms.api_url').'pages/162', [])->json()['content']['rendered'];
+
         return view('courses.index', [
+            'eadBox' => $eadBoxContent,
             'onlineProducts' => $onlineProducts,
             'presentialProducts' => $presentialProducts,
         ]);

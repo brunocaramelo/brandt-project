@@ -10,6 +10,10 @@ class InstituteController extends Controller
 {
     public function index()
     {
-        return view('institute.index', []);
+        $instituteContent = Http::get(config('cms.api_url').'pages/160', [])->json()['content']['rendered'];
+
+        return view('institute.index', [
+            'content' => $instituteContent
+        ]);
     }
 }
