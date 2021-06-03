@@ -3,6 +3,7 @@
 namespace Portal\Courses\Http;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Http;
 
 use Automattic\WooCommerce\Client as ClientWoocommerce;
 
