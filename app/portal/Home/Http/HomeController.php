@@ -17,11 +17,11 @@ class HomeController extends Controller
             'tag'=> 22,
         ]);
 
-        $banner = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/pages/22', [])->json()['content']['rendered'];
+        $banner = Http::get(config('cms.api_url').'pages/22', [])->json()['content']['rendered'];
 
-        $testimonials = Http::get(env('CMS_ORIGIN_API').'/wp-json/sola_t/v1/get_all_testimonials', [])->json()['data'];
+        $testimonials = Http::get(config('cms.api_testimonial_url').'get_all_testimonials', [])->json()['data'];
 
-        $videos = Http::get(env('CMS_ORIGIN_API').'/wp-json/wp/v2/media', [
+        $videos = Http::get(config('cms.api_url').'media', [
             'mime_type' => 'video/mp4'
         ])->json();
 
