@@ -41,9 +41,7 @@
                         @endforeach --}}
                             <div class="testimonial-item text-center">
                                 <p><b>"</b>
-                                    Me trabalho é ensinar as pessoas a empreender, com sucesso,
-                                    confiantes em sua técnica, entregando um trabalho maravilhoso que aumenta
-                                    a autoestima e amor próprio de cada paciente atendido.
+                                    Meus trabalho é ensinar as pessoas a empreender, com sucesso, confiantes em sua técnica, entregando um trabalho maravilhoso que aumenta a autoestima e amor próprio de cada paciente atendido.
                                     <b>"</b></p>
                                 <h6>Patrícia Brandt Sheffer</h6>
                             </div>
