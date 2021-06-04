@@ -316,7 +316,7 @@
         if(locationSitePage == "courses"){
             useRotate = true;
             quantidadeBanners = 3
-            imageRotatePathern = "img/bg-banner-contact-0";
+            imageRotatePathern = "img/banner_site_courses_0";
         }
 
         var indiceRotateBanner = 1;
