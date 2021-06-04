@@ -74,7 +74,7 @@
 
     <hr class="line-vr-section">
 
-    <section id="services" class="blog section-padding bg-grey" data-scroll-index="3">
+    <section id="services" class="blog section-padding" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -119,10 +119,4 @@
 
  @endsection
 
- {{-- <script>
-
-  var activeRotateBanner = true
-  var quantidadeBanners = 3
-  var imageRotatePathern = "img/bg-banner-contact-0";
-
- </script> --}}
+ <hr class="line-vr-section">
