@@ -295,26 +295,28 @@
     }
 
 
-    let indice = 1,
-    quantidadeBanners = 3
-    setInterval( function(){
-        if(indice > quantidadeBanners){
-            indice = 1
-        }
-        trocaBanner(indice)
-        indice++
-    }, 4000)
+    if(activeRotateBanner != undefined && activeRotateBanner == true){
 
+        indiceRotateBanner = 1,
+
+        setInterval( function(){
+            if(indiceRotateBanner > quantidadeBanners){
+                indiceRotateBanner = 1
+            }
+            trocaBanner(indiceRotateBanner, imageRotatePathern)
+            indiceRotateBanner++
+        }, 4000)
+    }
 
 })(jQuery);
 
 
 function trocaBanner(numeroBanner) {
-    $(`#banner-top`).fadeOut('slow');
+    $(`#banner-top-rotate`).fadeOut('slow');
 
-    $(`#banner-top`)
-    .attr(`data-background`, 'img/bg-banner-contact-0'+numeroBanner+'.jpg')
-    .css('background-image','url("img/bg-banner-contact-0'+numeroBanner+'.jpg")');
+    $(`#banner-top-rotate`)
+    .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
+    .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
 
-    $(`#banner-top`).fadeIn('slow');
+    $(`#banner-top-rotate`).fadeIn('slow');
 }
