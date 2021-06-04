@@ -41,7 +41,7 @@
             <div class="row">
                 @foreach ( $onlineProducts as $product)
                     <div class="col-md-4">
-                        <div class="item animate-box" data-animate-effect="fadeInLeft" style="margin-bottom:15px">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft" style="margin-bottom:30px">
                             <div class="post-img">
                                 <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
@@ -87,7 +87,7 @@
             <div class="row">
                 @foreach ( $presentialProducts as $product)
                     <div class="col-md-4">
-                        <div class="item animate-box" data-animate-effect="fadeInLeft" style="margin-bottom:15px">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft" style="margin-bottom:30px">
                             <div class="post-img">
                                 <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>

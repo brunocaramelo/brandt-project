@@ -13,9 +13,11 @@ class CoursesController extends Controller
     {
         $onlineProducts = $commerceClient->get('products', [
             'category'=> 17,
+            'status'=> 'publish',
         ]);
         $presentialProducts = $commerceClient->get('products', [
             'category'=> 18,
+            'status'=> 'publish',
         ]);
 
         $eadBoxContent = Http::get(config('cms.api_url').'pages/', [

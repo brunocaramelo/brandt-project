@@ -15,6 +15,7 @@ class HomeController extends Controller
 
         $products = $commerceClient->get('products', [
             'tag'=> 22,
+            'status'=> 'publish',
         ]);
 
         $banner = Http::get(config('cms.api_url').'pages/', [
