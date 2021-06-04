@@ -295,7 +295,7 @@
     }
 
 
-    if(activeRotateBanner != undefined && activeRotateBanner == true){
+    if(typeof(activeRotateBanner) != "undefined" && activeRotateBanner == true){
 
         indiceRotateBanner = 1,
 
