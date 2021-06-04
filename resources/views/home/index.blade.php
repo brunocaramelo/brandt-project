@@ -29,40 +29,6 @@
 
     <hr class="line-vr-section">
     <!-- Testimonials -->
-    <section id="testimonials" class="testimonials testimonials-padding bg-img" data-overlay-dark="5" data-background="img/bg-depoimento.png">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <div class="testimonial-say text-center">
-                        {{-- <div class="owl-carousel owl-theme">
-                            @foreach ( $testimonials as $testimonial)
-                                <div class="testimonial-item text-center">
-                                    <h5 class="mb-30">{{ $testimonial['title'] }}</h5>
-                                    <p><b>"</b> {{ $testimonial['content'] }} <b>"</b></p>
-                                    <h6>{{ $testimonial['author'] }}</h6>
-                                </div>
-                            @endforeach --}}
-                        <div class="owl-carousel owl-theme">
-                                <div class="testimonial-item text-center">
-                                    <h5 class="mb-30">Depoimentos</h5>
-                                    <p>
-                                        Ouça diretamente de quem já estudou diretamente com a Dra. Patrícia.<br />
-                                        Fica aqui nosso agradecimento, a todos os alunos que gravam vídeos e deixam mensagens com apoio e carinho.
-                                    </p>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="arrow bounce text-center">
-                        <a href="#portifoliovideos" class=""> <i class="ti-angle-double-down"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section id="blog" class="blog section-padding bg-grey" data-scroll-index="4">
         <div class="container">
@@ -98,6 +64,42 @@
     </section>
 
     <hr class="line-vr-section">
+
+    <section id="testimonials" class="testimonials testimonials-padding bg-img" data-overlay-dark="5" data-background="img/bg-depoimento.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="testimonial-say text-center">
+                        {{-- <div class="owl-carousel owl-theme">
+                            @foreach ( $testimonials as $testimonial)
+                                <div class="testimonial-item text-center">
+                                    <h5 class="mb-30">{{ $testimonial['title'] }}</h5>
+                                    <p><b>"</b> {{ $testimonial['content'] }} <b>"</b></p>
+                                    <h6>{{ $testimonial['author'] }}</h6>
+                                </div>
+                            @endforeach --}}
+                        <div class="owl-carousel owl-theme">
+                                <div class="testimonial-item text-center">
+                                    <h5 class="mb-30">Depoimentos</h5>
+                                    <p>
+                                        Ouça diretamente de quem já estudou diretamente com a Dra. Patrícia.<br />
+                                        Fica aqui nosso agradecimento, a todos os alunos que gravam vídeos e deixam mensagens com apoio e carinho.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="arrow bounce text-center">
+                        <a href="#portifoliovideos" class=""> <i class="ti-angle-double-down"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section id="portfolio" class="portfolio section-padding" data-scroll-index="6">
         <div id="portifoliovideos" data-scroll-index="6">
