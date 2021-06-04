@@ -294,18 +294,35 @@
         });
     }
 
+    locationSitePage = $("#banner-top-rotate").attr("location-page");
 
-    if(typeof(activeRotateBanner) != "undefined" && activeRotateBanner == true){
+    if(typeof(locationSitePage) != "undefined"){
+        var useRotate = false;
+        var quantidadeBanners = 1
+        var imageRotatePathern = null;
+
+        if(locationSitePage == "home"){
+            useRotate = true;
+            quantidadeBanners = 2
+            imageRotatePathern = "img/banner_site_home_0";
+        }
+
+        if(locationSitePage == "courses"){
+            useRotate = true;
+            quantidadeBanners = 3
+            imageRotatePathern = "img/bg-banner-contact-0";
+        }
 
         var indiceRotateBanner = 1;
-
-        setInterval(function(){
-            if(indiceRotateBanner > quantidadeBanners){
-                indiceRotateBanner = 1
-            }
-            trocaBanner(indiceRotateBanner, imageRotatePathern)
-            indiceRotateBanner++
-        }, 4000)
+        if(useRotate == true){
+            setInterval(function(){
+                if(indiceRotateBanner > quantidadeBanners){
+                    indiceRotateBanner = 1
+                }
+                trocaBanner(indiceRotateBanner, imageRotatePathern)
+                indiceRotateBanner++
+            }, 4000)
+        }
     }
 
 })(jQuery);

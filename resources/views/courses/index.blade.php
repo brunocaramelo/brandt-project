@@ -2,7 +2,7 @@
 @section('title', 'Cursos | Patricia Brandt')
 @section('content')
 
-<header class="header valign bg-img parallaxie" id="banner-top-rotate" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/bg-banner-contact-01.jpg">
+<header class="header valign bg-img parallaxie" id="banner-top-rotate" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/bg-banner-contact-01.jpg" location-page="courses">
     <div class="container" style="margin-top:420px">
         {{-- <div class="row">
             <div class="col-md-12 text-left caption">
@@ -119,10 +119,10 @@
 
  @endsection
 
- <script>
+ {{-- <script>
 
   var activeRotateBanner = true
   var quantidadeBanners = 3
   var imageRotatePathern = "img/bg-banner-contact-0";
 
- </script>
+ </script> --}}
