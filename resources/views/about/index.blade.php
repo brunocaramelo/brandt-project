@@ -2,7 +2,7 @@
 @section('title', 'Dra. Patrícia| Patricia Brandt')
 @section('content')
 
-<header class="header valign bg-img parallaxie" id="banner-top-rotate" data-scroll-index="0" data-overlay-dark="0" data-background="img/banner_about.jpg" style="background-position: left;">
+<header class="header valign bg-img parallaxie" id="banner-top-rotate" id="banner-top-rotate" data-scroll-index="0" data-overlay-dark="0" data-background="img/banner_about.jpg" style="background-position: left;" location-page="about">
     <div class="container" style="margin-top:420px">
         {{-- <div class="row">
             <div class="col-md-12 text-left caption">

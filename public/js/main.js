@@ -307,6 +307,12 @@
             imageRotatePathern = "img/banner_site_home_0";
         }
 
+        if(locationSitePage == "about"){
+            useRotate = true;
+            quantidadeBanners = 2
+            imageRotatePathern = "img/banner_site_about_0";
+        }
+
         if(locationSitePage == "courses"){
             useRotate = true;
             quantidadeBanners = 3
