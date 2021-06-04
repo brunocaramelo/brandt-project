@@ -315,7 +315,7 @@
 
         if(locationSitePage == "courses"){
             useRotate = true;
-            quantidadeBanners = 3
+            quantidadeBanners = 2
             imageRotatePathern = "img/banner_site_courses_0";
         }
 
@@ -335,11 +335,17 @@
 
 
 function trocaBanner(numeroBanner, imageRotatePathern) {
-    $(`#banner-top-rotate`).fadeOut('slow');
+    // $(`#banner-top-rotate`).fadeOut('slow');
 
-    $(`#banner-top-rotate`)
-    .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
-    .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
+    $("#banner-top-rotate").fadeOut(1000, function() {
+        $(`#banner-top-rotate`)
+        .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
+        .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
+    }).fadeIn(1000)
 
-    $(`#banner-top-rotate`).fadeIn('slow');
+    // $(`#banner-top-rotate`)
+    // .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
+    // .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
+
+    // $(`#banner-top-rotate`).fadeIn('slow');
 }
