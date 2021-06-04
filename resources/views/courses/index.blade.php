@@ -23,7 +23,7 @@
 
 <hr class="line-vr-section">
     <!-- About Us -->
-    <div id="about" class="about section-padding" data-scroll-index="1">
+    <div id="about" class="about section-padding" style="display:none" data-scroll-index="1">
         {!! $eadBox !!}
     </div>
     {{-- <hr class="line-vr-section"> --}}
