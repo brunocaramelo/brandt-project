@@ -335,7 +335,6 @@
 
 
 function trocaBanner(numeroBanner, imageRotatePathern) {
-    // $(`#banner-top-rotate`).fadeOut('slow');
 
     $("#banner-top-rotate").fadeOut(1000, function() {
         $(`#banner-top-rotate`)
@@ -343,9 +342,4 @@ function trocaBanner(numeroBanner, imageRotatePathern) {
         .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
     }).fadeIn(1000)
 
-    // $(`#banner-top-rotate`)
-    // .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
-    // .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
-
-    // $(`#banner-top-rotate`).fadeIn('slow');
 }

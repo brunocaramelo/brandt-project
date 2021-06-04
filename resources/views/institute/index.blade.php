@@ -20,8 +20,10 @@
     </div>
 </header>
 
-
-<section id="blog" class="blog section-padding bg-grey" data-scroll-index="4">
+<section id="blog" class="blog section-padding" data-scroll-index="4">
     {!! $content !!}
 </section>
+
+<hr class="line-vr-section">
+
 @endsection
