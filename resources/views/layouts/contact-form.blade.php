@@ -15,10 +15,15 @@
                         </div>
                         <div class="item">
                             <p><b>Fax</b> : +1 650-444-0011</p>
-                        </div>
-                        <div class="item">
-                            <p><b>Address</b> : 525 West Ave, CT 06850 Norwalk</p>
                         </div> --}}
+                        <div class="item">
+                            <p><b>Endereço</b> : Instituto Dra. Patricia Brandt Schefer
+                                <br />
+                                Ed. Bento Gonçalves <br />
+                                Rua Bento Gonçalves, N. 1731 - sala 111, Centro<br />
+                                93510-365 Novo Hamburgo - RS
+                                </p>
+                        </div>
                         <div class="item">
                             <p><b>Email</b> : atendimento@patriciabs.com.br</p>
                         </div>
@@ -30,7 +35,7 @@
                         <div class="alert alert-success message-contact-envited" style="display:none">
                             <strong>Obrigado!</strong> Mensagem enviada com sucesso.
                         </div>
-                        <p><b>GET IN TOUCH</b></p>
+                        <p><b>ENTRE EM CONTATO</b></p>
                         <form class="row" id="contact-default-form">
                             <div class="col-sm-6">
                                 <div class="form-group">
