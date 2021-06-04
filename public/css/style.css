@@ -2175,3 +2175,10 @@ ol.comment-list li .children li {
 [data-overlay-light="10"]:before {
     opacity: 1;
 }
+
+.btn-see-others-courses{
+    background-color: #000;
+    color: #caae64;
+    border: 1px solid #000;
+    border-spacing: 5px;
+}
