@@ -143,10 +143,10 @@
     @include('layouts.contact-form')
 @endsection
 
-<script>
+{{-- <script>
 
-    var activeRotateBanner = false
+    var activeRotateBanner = true
     var quantidadeBanners = 2
     var imageRotatePathern = "img/banner_site_home_0";
 
-</script>
+</script> --}}
