@@ -608,3 +608,6 @@
 	display: none;
 }
 
+.woocommerce div.product .product_meta{
+    display: none;
+}

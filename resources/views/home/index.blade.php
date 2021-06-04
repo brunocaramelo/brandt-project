@@ -54,6 +54,13 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="arrow bounce text-center">
+                        <a href="#portifolio" class=""> <i class="ti-angle-double-down"></i> </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
