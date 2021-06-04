@@ -294,7 +294,7 @@
         });
     }
 
-    locationSitePage = $("#banner-top-rotate").attr("location-page");
+    var locationSitePage = $("#banner-top-rotate").attr("location-page");
 
     if(typeof(locationSitePage) != "undefined"){
         var useRotate = false;
