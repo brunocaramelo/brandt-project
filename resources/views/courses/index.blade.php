@@ -33,12 +33,32 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title mb-30"> <span>Cursos</span>
-                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Online</h2>
+                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Plataforma</h2>
                         <hr class="line line-hr-secondary">
                     </div>
                 </div>
             </div>
-            <div class="row services mb-60">
+            <div class="row">
+                @foreach ( $onlineProducts as $product)
+                    <div class="col-md-4">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft">
+                            <div class="post-img">
+                                <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
+                            </div>
+                            {{-- <div class="post-cont post-cont-container"> <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST"),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"><span class="tag">{{$product->categories[1]->name}}</span></a>
+                                <h5>
+                                    <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif">{{$product->name}}</a>
+                                </h5>
+                                <div class="post-cont-description-course">{{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 90, $end='...') }}</div>
+                                @if( !empty($product->default_attributes[0]->name))
+                                    <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
+                                @endif
+                            </div> --}}
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            {{-- <div class="row services mb-60">
                 @foreach ( $onlineProducts as $product)
                 <div class="col-md-6 item">
                     <div class="position-re o-hidden"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </div>
@@ -47,7 +67,7 @@
                     </div>
                 </div>
                 @endforeach
-            </div>
+            </div> --}}
         </div>
     </section>
 
@@ -64,7 +84,27 @@
                     </div>
                 </div>
             </div>
-            <div class="row services mb-60">
+            <div class="row">
+                @foreach ( $presentialProducts as $product)
+                    <div class="col-md-4">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft">
+                            <div class="post-img">
+                                <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
+                            </div>
+                            {{-- <div class="post-cont post-cont-container"> <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST"),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"><span class="tag">{{$product->categories[1]->name}}</span></a>
+                                <h5>
+                                    <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif">{{$product->name}}</a>
+                                </h5>
+                                <div class="post-cont-description-course">{{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 90, $end='...') }}</div>
+                                @if( !empty($product->default_attributes[0]->name))
+                                    <div class="info-2">{{ $product->default_attributes[0]->option }}</div>
+                                @endif
+                            </div> --}}
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            {{-- <div class="row services mb-60">
                 @foreach ( $presentialProducts as $product)
                 <div class="col-md-6 item">
                     <div class="position-re o-hidden"> <img src="{{$product->images[0]->src}}" alt=""> </div>
@@ -73,7 +113,7 @@
                     </div>
                 </div>
                 @endforeach
-            </div>
+            </div> --}}
         </div>
     </section>
 
