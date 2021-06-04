@@ -8,8 +8,8 @@
                         </div>
                     </div>
                     <div class="col-md-6 info mb-30 animate-box" data-animate-effect="fadeInLeft">
-                        <p>Quisque facilisis libero maximus non.
-                            <br />Lolutpat venenatis lacus sed hendrerit nisi.</p>
+                        {{-- <p>Quisque facilisis libero maximus non.
+                            <br />Lolutpat venenatis lacus sed hendrerit nisi.</p> --}}
                         {{-- <div class="item">
                             <p><b>Phone</b> : +1 650-444-0000</p>
                         </div>
