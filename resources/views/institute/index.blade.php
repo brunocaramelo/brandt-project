@@ -24,6 +24,7 @@
     {!! $content !!}
 </section>
 
+
 <hr class="line-vr-section">
 
 @endsection
