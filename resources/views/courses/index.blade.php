@@ -23,9 +23,9 @@
 
 <hr class="line-vr-section">
     <!-- About Us -->
-    {{-- <div id="about" class="about section-padding" data-scroll-index="1">
+    <div id="about" class="about section-padding" data-scroll-index="1">
         {!! $eadBox !!}
-    </div> --}}
+    </div>
     {{-- <hr class="line-vr-section"> --}}
     <!-- Services -->
     <section id="services" class="blog section-padding bg-grey" data-scroll-index="2">
@@ -117,6 +117,7 @@
         </div>
     </section>
 
+    <hr class="line-vr-section">
  @endsection
 
- <hr class="line-vr-section">
+
