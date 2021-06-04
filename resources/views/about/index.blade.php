@@ -32,14 +32,22 @@
             <div class="col-md-8 offset-md-2">
                 <div class="testimonial-say text-center">
                     <div class="owl-carousel owl-theme">
-                        @foreach ( $testimonials as $testimonial)
+                        {{-- @foreach ( $testimonials as $testimonial)
                             <div class="testimonial-item text-center">
                                 <h5 class="mb-30">{{ $testimonial['title'] }}</h5>
                                 <p><b>"</b> {{ $testimonial['content'] }} <b>"</b></p>
                                 <h6>{{ $testimonial['author'] }}</h6>
                             </div>
-                        @endforeach
-                    </div>
+                        @endforeach --}}
+                            <div class="testimonial-item text-center">
+                                <p><b>"</b>
+                                    Me trabalho é ensinar as pessoas a empreender, com sucesso,
+                                    confiantes em sua técnica, entregando um trabalho maravilhoso que aumenta
+                                    a autoestima e amor próprio de cada paciente atendido.
+                                    <b>"</b></p>
+                                <h6>Patrícia Brandt Sheffer</h6>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
