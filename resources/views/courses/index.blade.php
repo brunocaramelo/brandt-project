@@ -28,7 +28,7 @@
     </div>
     <hr class="line-vr-section">
     <!-- Services -->
-    <section id="services" class="section-padding bg-grey" data-scroll-index="2">
+    <section id="services" class="blog section-padding bg-grey" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -41,7 +41,7 @@
             <div class="row">
                 @foreach ( $onlineProducts as $product)
                     <div class="col-md-4">
-                        <div class="item animate-box" data-animate-effect="fadeInLeft">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft" style="margin-bottom:15px">
                             <div class="post-img">
                                 <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
@@ -74,7 +74,7 @@
 
     <hr class="line-vr-section">
 
-    <section id="services" class="section-padding bg-grey" data-scroll-index="2">
+    <section id="services" class="blog section-padding bg-grey" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -87,7 +87,7 @@
             <div class="row">
                 @foreach ( $presentialProducts as $product)
                     <div class="col-md-4">
-                        <div class="item animate-box" data-animate-effect="fadeInLeft">
+                        <div class="item animate-box" data-animate-effect="fadeInLeft" style="margin-bottom:15px">
                             <div class="post-img">
                                 <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
