@@ -99,7 +99,7 @@
 
     <hr class="line-vr-section">
 
-    <section id="portfolio" class="section-padding" data-scroll-index="5">
+    <section id="portfolio" class="section-padding" data-scroll-index="6">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
