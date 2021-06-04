@@ -46,7 +46,7 @@
                                 <div class="testimonial-item text-center">
                                     <h5 class="mb-30">Depoimentos</h5>
                                     <p>
-                                        Ouça diretamente de quem já estudou diretamente com a Dra. Patrícia.
+                                        Ouça diretamente de quem já estudou diretamente com a Dra. Patrícia.<br />
                                         Fica aqui nosso agradecimento, a todos os alunos que gravam vídeos e deixam mensagens com apoio e carinho.
                                     </p>
                                 </div>
