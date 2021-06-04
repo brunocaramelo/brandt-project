@@ -142,3 +142,11 @@
 
     @include('layouts.contact-form')
 @endsection
+
+<script>
+
+    var activeRotateBanner = true
+    var quantidadeBanners = 2
+    var imageRotatePathern = "img/banner_site_home_0";
+
+   </script>
