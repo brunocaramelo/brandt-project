@@ -297,9 +297,9 @@
 
     if(typeof(activeRotateBanner) != "undefined" && activeRotateBanner == true){
 
-        indiceRotateBanner = 1,
+        var indiceRotateBanner = 1;
 
-        setInterval( function(){
+        setInterval(function(){
             if(indiceRotateBanner > quantidadeBanners){
                 indiceRotateBanner = 1
             }
@@ -311,7 +311,7 @@
 })(jQuery);
 
 
-function trocaBanner(numeroBanner) {
+function trocaBanner(numeroBanner, imageRotatePathern) {
     $(`#banner-top-rotate`).fadeOut('slow');
 
     $(`#banner-top-rotate`)
