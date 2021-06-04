@@ -4897,6 +4897,9 @@ body.offcanvas .xwezi-nav-toggle {
 .woocommerce div.product .stock{
     color: #caae64;
 }
+.woocommerce div.product .product_meta{
+    display: none;
+}
 
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt input#submit.alt:hover {
     background-color: #000;
