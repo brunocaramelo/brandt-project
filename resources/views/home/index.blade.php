@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="arrow bounce text-center">
-                        <a href="#portifolio" class=""> <i class="ti-angle-double-down"></i> </a>
+                        <a href="#portifoliovideos" class=""> <i class="ti-angle-double-down"></i> </a>
                     </div>
                 </div>
             </div>
@@ -100,6 +100,7 @@
     <hr class="line-vr-section">
 
     <section id="portfolio" class="portfolio section-padding" data-scroll-index="6">
+        <div id="portifoliovideos" data-scroll-index="6">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -127,6 +128,7 @@
                     </a>
                 </div>
             @endforeach
+        </div>
         </div>
     </div>
     </section>
