@@ -2177,8 +2177,10 @@ ol.comment-list li .children li {
 }
 
 .btn-see-others-courses{
+    margin: 5px 0;
     background-color: #000;
     color: #caae64;
     border: 1px solid #000;
     border-spacing: 5px;
+    padding: 10px 15px;
 }
