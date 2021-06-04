@@ -60,6 +60,9 @@
                     </div>
                 @endforeach
             </div>
+            <div class="row">
+                <a href="" class="btn-see-others-courses" href={{route('general-courses')}}>Conheça os demais modelos de cursos aqui </a>
+            </div>
         </div>
     </section>
 
