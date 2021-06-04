@@ -145,8 +145,8 @@
 
 <script>
 
-    var activeRotateBanner = true
+    var activeRotateBanner = false
     var quantidadeBanners = 2
     var imageRotatePathern = "img/banner_site_home_0";
 
-   </script>
+</script>
