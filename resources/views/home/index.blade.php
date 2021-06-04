@@ -34,14 +34,22 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">
                     <div class="testimonial-say text-center">
-                        <div class="owl-carousel owl-theme">
+                        {{-- <div class="owl-carousel owl-theme">
                             @foreach ( $testimonials as $testimonial)
                                 <div class="testimonial-item text-center">
                                     <h5 class="mb-30">{{ $testimonial['title'] }}</h5>
                                     <p><b>"</b> {{ $testimonial['content'] }} <b>"</b></p>
                                     <h6>{{ $testimonial['author'] }}</h6>
                                 </div>
-                            @endforeach
+                            @endforeach --}}
+                        <div class="owl-carousel owl-theme">
+                                <div class="testimonial-item text-center">
+                                    <h5 class="mb-30">Depoimentos</h5>
+                                    <p>
+                                        Ouça diretamente de quem já estudou diretamente com a Dra. Patrícia.
+                                        Fica aqui nosso agradecimento, a todos os alunos que gravam vídeos e deixam mensagens com apoio e carinho.
+                                    </p>
+                                </div>
                         </div>
                     </div>
                 </div>
