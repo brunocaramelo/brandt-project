@@ -2183,4 +2183,5 @@ ol.comment-list li .children li {
     border: 1px solid #000;
     border-spacing: 5px;
     padding: 10px 15px;
+    text-transform: uppercase;
 }
