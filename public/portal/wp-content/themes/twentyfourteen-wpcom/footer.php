@@ -23,7 +23,7 @@
                         <p><small>&copy; 2021 Patricia Sheffer.</small></p>
                     </div>
                 </div>
-                <div class="colunas-md-3">
+                <div class="colunas-md-3" style="display:none">
                     <p><b>Contato</b>
                         <br><a href="#">Alunos</a>
                         <br><a href="#">Pacientes Modelos</a>
