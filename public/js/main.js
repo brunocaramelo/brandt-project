@@ -340,6 +340,6 @@ function trocaBanner(numeroBanner, imageRotatePathern) {
         $(`#banner-top-rotate`)
         .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
         .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")');
-    }).fadeIn(1000)
+    }).fadeIn(900)
 
 }
