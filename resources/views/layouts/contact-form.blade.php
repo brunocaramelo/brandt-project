@@ -27,9 +27,6 @@
                         <div class="item">
                             <p><b>Email</b> : atendimento@patriciabs.com.br</p>
                         </div>
-                        <div class="item">
-                            <p><b>Atendimento</b> : Seg-Sex: 08.00 - 19.00, Domingo: Fechado</p>
-                        </div>
                     </div>
                     <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
                         <div class="alert alert-success message-contact-envited" style="display:none">
