@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Home | '.{{config('app.name')}} )
+@section('title', "Home | {{config('app.name')}}" )
 @section('content')
 
 <header class="header valign bg-img parallaxie" id="banner-top-rotate" style="background-position: left;" data-scroll-index="0" data-overlay-dark="0" data-background="img/banner_site_home_01.jpg" location-page="home" />
