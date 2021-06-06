@@ -8,14 +8,6 @@
                         </div>
                     </div>
                     <div class="col-md-6 info mb-30 animate-box" data-animate-effect="fadeInLeft">
-                        {{-- <p>Quisque facilisis libero maximus non.
-                            <br />Lolutpat venenatis lacus sed hendrerit nisi.</p> --}}
-                        {{-- <div class="item">
-                            <p><b>Phone</b> : +1 650-444-0000</p>
-                        </div>
-                        <div class="item">
-                            <p><b>Fax</b> : +1 650-444-0011</p>
-                        </div> --}}
                         <div class="item">
                             <p><b>Endereço</b> : Instituto Dra. Patricia Brandt Schefer
                                 <br />
@@ -32,15 +24,22 @@
                         <div class="alert alert-success message-contact-envited" style="display:none">
                             <strong>Obrigado!</strong> Mensagem enviada com sucesso.
                         </div>
-                        <p><b>ENTRE EM CONTATO</b></p>
-                        <form class="row" id="contact-default-form">
+                        <p><b>ENTRE EM CONTATO:</b>
+                            <select class="form-control" id="form-contact-type" onchange="javascript:activeTypeForm($(this).val())">
+                                <option value="student">Aluno </option>
+                                <option value="teacher">Professor</option>
+                                <option value="patient">Paciente Modelo</option>
+                            </select>
+                        </p>
+
+                        <form class="row contact-form-model" id="contact-student-form" target="{{ route('send-contact-student') }}">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Nome *" required name="name"> </div>
+                                    <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email" name="email"> </div>
+                                    <input type="text" class="form-control required" placeholder="Email*" required name="email"> </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="form-group">
@@ -54,10 +53,52 @@
                                 </div>
                             </div>
                         </form>
+
+                        <form class="row contact-form-model" id="contact-teacher-form" style="display:none" target="{{route("send-contact-teacher")}}">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" placeholder="Email*" required name="email"> </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" cols="30" rows="4" class="form-control"
+                                        placeholder="Mensagem"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <button class="btn fl-btn btn-submit-contact" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <form class="row contact-form-model" id="contact-patient-form" style="display:none" target="{{route("send-contact-patient")}}">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control required" placeholder="Email*" required name="email"> </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" cols="30" rows="4" class="form-control"
+                                        placeholder="Mensagem"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <button class="btn fl-btn btn-submit-contact" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
             </div>
-        </section>
-<script type="text/javascript">
-    var contactFormTargetEndpoint = "{{ route('send-contact-default') }}";
-</script>
+

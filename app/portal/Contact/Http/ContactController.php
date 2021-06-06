@@ -23,4 +23,26 @@ class ContactController extends Controller
 
         return response()->json(['status' => 'success']);
     }
+    public function sendStudent(Request $params)
+    {
+        Notification::route('mail', config('app.mail.attendance_address'))
+            ->notify(new \App\Notifications\ContactToStudent($params));
+
+        return response()->json(['status' => 'success']);
+    }
+    public function sendTeacher(Request $params)
+    {
+        Notification::route('mail', config('app.mail.attendance_address'))
+            ->notify(new \App\Notifications\ContactToTeacher($params));
+
+        return response()->json(['status' => 'success']);
+    }
+
+    public function sendPatient(Request $params)
+    {
+        Notification::route('mail', config('app.mail.attendance_address'))
+            ->notify(new \App\Notifications\ContactToPatient($params));
+
+        return response()->json(['status' => 'success']);
+    }
 }

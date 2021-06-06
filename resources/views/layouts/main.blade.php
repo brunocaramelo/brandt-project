@@ -101,6 +101,7 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/mklb.js"></script>

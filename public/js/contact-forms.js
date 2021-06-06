@@ -4,33 +4,41 @@ $.ajaxSetup({
     }
 });
 
+
 $(".btn-submit-contact").click(function(e){
+
+
+    var formActivadedObject = $(this).closest('form').get(0);
+    var formActivaded =  formActivadedObject.id;
+
 
     e.preventDefault();
 
-    $('.btn-submit-contact').attr('disabled', true);
+    $('#'+formActivaded+' .btn-submit-contact').attr('disabled', true);
 
     $('.message-contact-envited').fadeOut();
 
     $.ajax({
         type:'POST',
-        url: contactFormTargetEndpoint,
-        data:{
-            name: $("input[name=name]").val(),
-            message: $("textarea[name=message]").val(),
-            email: $("input[name=email]").val()
-        }
+        url: formActivadedObject.target,
+        data: $('#'+formActivaded).serialize()
     ,success:function(data){
 
-        $("input[name=name]").val('')
-        $("textarea[name=message]").val('')
-        $("input[name=email]").val('')
+        $('#'+formActivaded+" input[name=name]").val('')
+        $('#'+formActivaded+" textarea[name=message]").val('')
+        $('#'+formActivaded+" input[name=email]").val('')
 
         $('.message-contact-envited').fadeIn("fast");
 
-        $('.btn-submit-contact').attr('disabled', false);
+        $('#'+formActivaded+' .btn-submit-contact').attr('disabled', false);
 
     }
     });
 
 });
+
+function activeTypeForm(value) {
+    var formActivaded = "contact-"+value+"-form"
+    $(".contact-form-model").hide();
+    $("#"+formActivaded).show();
+}

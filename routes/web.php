@@ -32,9 +32,21 @@ Route::get('/contact',
 [ 'as' => 'contact',
 'uses' => '\Portal\Contact\Http\ContactController@index'
 ]);
-Route::post('/contact',
-[ 'as' => 'send-contact-default',
-'uses' => '\Portal\Contact\Http\ContactController@sendDefault'
+
+
+Route::post('/contact/student',
+[ 'as' => 'send-contact-student',
+'uses' => '\Portal\Contact\Http\ContactController@sendStudent'
+]);
+
+Route::post('/contact/teacher',
+[ 'as' => 'send-contact-teacher',
+'uses' => '\Portal\Contact\Http\ContactController@sendTeacher'
+]);
+
+Route::post('/contact/patient',
+[ 'as' => 'send-contact-patient',
+'uses' => '\Portal\Contact\Http\ContactController@sendPatient'
 ]);
 
 Route::get('/institute',
