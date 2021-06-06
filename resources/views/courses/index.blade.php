@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Cursos | Patricia Brandt')
+@section('title', 'Cursos')
 @section('content')
 
 <header class="header valign bg-img parallaxie" id="banner-top-rotate" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/banner_site_courses_01.jpg" location-page="courses">
