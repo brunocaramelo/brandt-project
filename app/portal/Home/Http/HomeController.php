@@ -18,9 +18,10 @@ class HomeController extends Controller
             'status'=> 'publish',
         ]);
 
-        $banner = Http::get(config('cms.api_url').'pages/', [
-            'slug' => 'banner-home'
-        ])->json()[0]['content']['rendered'];
+        $newProducts = $commerceClient->get('products', [
+            'category'=> 19,
+            'status'=> 'publish',
+        ]);
 
         $testimonials = Http::get(config('cms.api_testimonial_url').'get_all_testimonials', [])->json()['data'];
 
@@ -29,7 +30,7 @@ class HomeController extends Controller
         ])->json();
 
         return view('home.index', [
-                                    'banner' => $banner,
+                                    'newProducts' => $newProducts,
                                     'testimonials' => $testimonials,
                                     'products' => $products,
                                     'videos' => $videos,

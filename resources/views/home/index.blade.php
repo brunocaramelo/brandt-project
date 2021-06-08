@@ -25,7 +25,28 @@
 <hr class="line-vr-section">
     <!-- About Us -->
 
-    {!! $banner  !!}
+    <div id="about" class="about section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="about-img mb-30 img-fluid animate-box" data-animate-effect="fadeInLeft" style="background-image: url({{$product->images[0]->woocommerce_thumbnail}});">
+                    </div>
+                </div>
+                <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
+                    @foreach ( $newProducts as $product)
+                    <div class="title"> <span>PLATAFORMA DE ENSINO</span>
+                        <h2>{{$product->name}}</h2>
+                        <hr class="line line-hr-secondary">
+                    </div>
+                    <h3>TOXINA BOTULÍNICA</h3>
+                        {{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 250, $end='...') }}
+                    <br>
+                    <div class="row awards"></div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </div>
 
     <hr class="line-vr-section">
     <!-- Testimonials -->
