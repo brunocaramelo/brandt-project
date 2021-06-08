@@ -38,8 +38,8 @@
                         <h2>{{$product->name}}</h2>
                         <hr class="line line-hr-secondary">
                     </div>
-                    <h3>TOXINA BOTULÍNICA</h3>
-                        {{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 250, $end='...') }}
+                        {{-- {{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 250, $end='...') }} --}}
+                        {!! $product->short_description !!}
                     <br>
                     <div class="row awards"></div>
                 </div>
