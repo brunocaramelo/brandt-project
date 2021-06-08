@@ -41,8 +41,13 @@
                         {{-- {{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 250, $end='...') }} --}}
                         {!! $product->short_description !!}
                     <br>
+
+                    <div class="row">
+                        <a class="btn-see-others-courses" href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif">Conheça os demais modelos de cursos aqui </a>
+                    </div>
+
                     <div class="row awards"></div>
-                </div>
+                    </div>
             </div>
             @endforeach
         </div>
