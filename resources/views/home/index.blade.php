@@ -27,13 +27,13 @@
 
     <div id="about" class="about section-padding" data-scroll-index="1">
         <div class="container">
+            @foreach ( $newProducts as $product)
             <div class="row">
                 <div class="col-md-5">
                     <div class="about-img mb-30 img-fluid animate-box" data-animate-effect="fadeInLeft" style="background-image: url({{$product->images[0]->woocommerce_thumbnail}});">
                     </div>
                 </div>
                 <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
-                    @foreach ( $newProducts as $product)
                     <div class="title"> <span>PLATAFORMA DE ENSINO</span>
                         <h2>{{$product->name}}</h2>
                         <hr class="line line-hr-secondary">
@@ -43,8 +43,8 @@
                     <br>
                     <div class="row awards"></div>
                 </div>
-                @endforeach
             </div>
+            @endforeach
         </div>
     </div>
 
