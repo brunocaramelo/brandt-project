@@ -41,7 +41,8 @@
                 </div>
                 <div class="colunas-md-3">
                     <div class="brand">
-                        <p class="mb-0"><b>ABRAHOF</b></p>
+                        <p class="mb-0" style="padding-left:5px"><b>ABRAHOF</b></p>
+                        <br />
                         <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/selo-abrahof.jpg" class="logo" alt="">
                     </div>
                 </div>
