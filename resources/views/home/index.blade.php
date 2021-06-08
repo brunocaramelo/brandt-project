@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="title"> <span>PLATAFORMA DE ENSINO</span>
+                    <div class="title" style="text-transform:uppercase"> <span>@if( !empty($product->default_attributes[0]->name)) {{ $product->default_attributes[0]->option }}  @else PLATAFORMA DE ENSINO @endif</span>
                         <h2>{{$product->name}}</h2>
                         <hr class="line line-hr-secondary">
                     </div>
@@ -43,7 +43,7 @@
                     <br>
 
                     <div class="row">
-                        <a class="btn-see-others-courses" href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif">Conheça os demais modelos de cursos aqui </a>
+                        <a class="btn-see-others-courses" href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif">Saiba mais </a>
                     </div>
 
                     <div class="row awards"></div>
