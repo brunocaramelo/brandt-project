@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="title" style="text-transform:uppercase"> <span>@if( !empty($product->default_attributes[0]->name)) {{ $product->default_attributes[0]->option }}  @else PLATAFORMA DE ENSINO @endif</span>
+                    <div class="title" style="text-transform:uppercase"> PLATAFORMA DE ENSINO </span>
                         <h2>{{$product->name}}</h2>
                         <hr class="line line-hr-secondary">
                     </div>
