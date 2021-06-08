@@ -19,7 +19,7 @@ class HomeController extends Controller
         ]);
 
         $newProducts = $commerceClient->get('products', [
-            'category'=> 19,
+            'category'=> 23,
             'status'=> 'publish',
         ]);
 
