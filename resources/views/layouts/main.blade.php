@@ -84,7 +84,7 @@
                 <div class="col-md-3">
                     <div class="brand">
                         <p class="mb-0"><b>ABRAHOF</b></p>
-                        <img src="img/logo-abraof.png" class="logo" alt="">
+                        <img src="img/selo abrahof.jpg" class="logo" alt="">
                     </div>
                 </div>
             </div>

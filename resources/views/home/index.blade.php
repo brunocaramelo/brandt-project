@@ -44,7 +44,7 @@
                 @foreach ( $products as $product)
                     <div class="col-md-4">
                         <div class="item animate-box" data-animate-effect="fadeInLeft">
-                            <div class="post-img">
+                            <div class="post-imgs">
                                 <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST",false),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"> <img src="{{$product->images[0]->woocommerce_thumbnail}}" alt=""> </a>
                             </div>
                             {{-- <div class="post-cont post-cont-container"> <a href="@if(env("REPLACE_HOST",false)) {{str_replace(env("TOREPLACE_HOST"),env("TARGET_HOST"), $product->permalink)}} @else {{$product->permalink}} @endif"><span class="tag">{{$product->categories[1]->name}}</span></a>
