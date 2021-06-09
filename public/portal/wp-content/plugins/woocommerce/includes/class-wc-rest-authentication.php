@@ -64,7 +64,6 @@ class WC_REST_Authentication {
 		// Allow third party plugins use our authentication methods.
 		$third_party = ( false !== strpos( $request_uri, $rest_prefix . 'wc-' ) );
 
-		return apply_filters( 'woocommerce_rest_is_request_to_rest_api', true );
 		return apply_filters( 'woocommerce_rest_is_request_to_rest_api', $woocommerce || $third_party );
 	}
 
@@ -412,9 +411,6 @@ class WC_REST_Authentication {
 		$secret         = $user->consumer_secret . '&';
 		$signature      = base64_encode( hash_hmac( $hash_algorithm, $string_to_sign, $secret, true ) );
 
-        if(APPLICATION_MODE ==='LOCAL'){
-            return true;
-        }
 		if ( ! hash_equals( $signature, $consumer_signature ) ) { // @codingStandardsIgnoreLine
 			return new WP_Error( 'woocommerce_rest_authentication_error', __( 'Invalid signature - provided signature does not match.', 'woocommerce' ), array( 'status' => 401 ) );
 		}

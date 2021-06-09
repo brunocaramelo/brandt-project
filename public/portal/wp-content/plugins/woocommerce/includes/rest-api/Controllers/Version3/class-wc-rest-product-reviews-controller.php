@@ -135,7 +135,7 @@ class WC_REST_Product_Reviews_Controller extends WC_REST_Controller {
 	 * @return WP_Error|boolean
 	 */
 	public function get_items_permissions_check( $request ) {
-       if ( ! wc_rest_check_product_reviews_permissions( 'read' ) ) {
+		if ( ! wc_rest_check_product_reviews_permissions( 'read' ) ) {
 			return new WP_Error( 'woocommerce_rest_cannot_view', __( 'Sorry, you cannot list resources.', 'woocommerce' ), array( 'status' => rest_authorization_required_code() ) );
 		}
 
