@@ -60,7 +60,7 @@
     <footer class="footer-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="logo"> <img src="img/logocinza.jpg" class="logo" alt="">
                         <p><small>&copy; 2021 Patricia Sheffer.</small></p>
                     </div>
@@ -72,7 +72,7 @@
                         <br><a href="#">Endereço do Instituto</a>
                         </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <p class="mb-0"><b>Redes Sociais</b></p>
                     <ul class="ovon-footer-social-link">
                         <li><a href="https://www.facebook.com/drapatriciabrandtschefer"><i class="ti-facebook"></i></a></li>
