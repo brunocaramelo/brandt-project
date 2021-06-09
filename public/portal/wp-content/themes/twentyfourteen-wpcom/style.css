@@ -5012,7 +5012,7 @@ body.offcanvas .xwezi-nav-toggle {
 }
 
 .footer-section .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
-.footer-section .colunas-md-3{position:relative;width:20%;padding-right:15px;padding-left:25px}
+.footer-section .colunas-md-3{position:relative;width:33%;padding-right:15px;padding-left:25px}
 .footer-section .col{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .footer-section .mb-0,.my-0{margin-bottom:0!important}
 .footer-section .container{max-width:1140px}
