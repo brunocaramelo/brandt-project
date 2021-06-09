@@ -35,7 +35,10 @@
                 </div>
                 <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
                     <div class="title" style="text-transform:uppercase"> PLATAFORMA DE ENSINO </span>
-                        <h2>{{$product->name}}</h2>
+
+                        <h2>LANÇAMENTO</h2>
+
+                        <h5>{{$product->name}}</h5>
                         <hr class="line line-hr-secondary">
                     </div>
                         {{-- {{ \Illuminate\Support\Str::limit(strip_tags($product->short_description), 250, $end='...') }} --}}
