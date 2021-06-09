@@ -18,7 +18,7 @@
     <footer id="colophon" class="footer-section" role="contentinfo">
     <div class="container">
             <div class="row">
-                <div class="colunas-md-4">
+                <div class="colunas-md-3">
                     <div class="logo"> <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logocinza.png" class="logo" alt="">
                         <p><small>&copy; 2021 Patricia Sheffer.</small></p>
                     </div>
@@ -30,7 +30,7 @@
                         <br><a href="#">Endereço do Instituto</a>
                         </p>
                 </div>
-                <div class="colunas-md-4">
+                <div class="colunas-md-3">
                     <p class="mb-0"><b>Redes Sociais</b></p>
                     <ul class="ovon-footer-social-link">
                         <li><a href="https://www.facebook.com/drapatriciabrandtschefer"><i class="ti-facebook"></i></a></li>
