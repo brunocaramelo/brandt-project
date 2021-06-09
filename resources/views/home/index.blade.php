@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-md-7 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="title" style="text-transform:uppercase"> PLATAFORMA DE ENSINO </span>
+                    <div class="title" style="text-transform:uppercase"><span>PLATAFORMA DE ENSINO</span>
 
                         <h2>LANÇAMENTO</h2>
 
