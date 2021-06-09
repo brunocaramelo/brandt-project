@@ -33,7 +33,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title mb-30"> <span>Cursos</span>
-                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Plataforma</h2>
+                        <h2 class="animate-box" data-animate-effect="fadeInLeft">Plataforma de ensino</h2>
                         <hr class="line line-hr-secondary">
                     </div>
                 </div>
