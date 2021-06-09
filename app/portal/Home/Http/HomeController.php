@@ -14,7 +14,7 @@ class HomeController extends Controller
     {
 
         $products = $commerceClient->get('products', [
-            'tag'=> 22,
+            'category'=> 24,
             'status'=> 'publish',
         ]);
 
