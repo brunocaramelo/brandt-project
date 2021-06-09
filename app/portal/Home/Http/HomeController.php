@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
 
-        $products = $commerceClient->get('products', [
+        $relevantProducts = $commerceClient->get('products', [
             'category'=> 24,
             'status'=> 'publish',
         ]);
@@ -32,7 +32,7 @@ class HomeController extends Controller
         return view('home.index', [
                                     'newProducts' => $newProducts,
                                     'testimonials' => $testimonials,
-                                    'products' => $products,
+                                    'products' => $relevantProducts,
                                     'videos' => $videos,
                                 ]);
     }
