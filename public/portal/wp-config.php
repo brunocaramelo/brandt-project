@@ -91,7 +91,9 @@ define('FS_METHOD','direct');
 
 define('APPLICATION_MODE',$_ENV['APPLICATION_MODE']);
 
-
+if(!empty($_ENV['USE_SSL']) && $_ENV['USE_SSL'] == "true" ) {
+    $_SERVER["HTTPS"] = "on";
+}
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
