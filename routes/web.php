@@ -12,44 +12,89 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+if (env('APP_ENV') == 'hidden_production') {
+    Route::prefix('brandt-project')->group(function () {
+        Route::get('/',
+        [ 'as' => 'home',
+        'uses' => '\Portal\Home\Http\HomeController@index'
+        ]);
 
-Route::get('/',
-[ 'as' => 'home',
-'uses' => '\Portal\Home\Http\HomeController@index'
-]);
+        Route::get('/courses',
+        [ 'as' => 'general-courses',
+        'uses' => '\Portal\Courses\Http\CoursesController@index'
+        ]);
 
-Route::get('/courses',
-[ 'as' => 'general-courses',
-'uses' => '\Portal\Courses\Http\CoursesController@index'
-]);
+        Route::get('/about',
+        [ 'as' => 'about',
+        'uses' => '\Portal\About\Http\AboutController@index'
+        ]);
 
-Route::get('/about',
-[ 'as' => 'about',
-'uses' => '\Portal\About\Http\AboutController@index'
-]);
-
-Route::get('/contact',
-[ 'as' => 'contact',
-'uses' => '\Portal\Contact\Http\ContactController@index'
-]);
+        Route::get('/contact',
+        [ 'as' => 'contact',
+        'uses' => '\Portal\Contact\Http\ContactController@index'
+        ]);
 
 
-Route::post('/contact/student',
-[ 'as' => 'send-contact-student',
-'uses' => '\Portal\Contact\Http\ContactController@sendStudent'
-]);
+        Route::post('/contact/student',
+        [ 'as' => 'send-contact-student',
+        'uses' => '\Portal\Contact\Http\ContactController@sendStudent'
+        ]);
 
-Route::post('/contact/teacher',
-[ 'as' => 'send-contact-teacher',
-'uses' => '\Portal\Contact\Http\ContactController@sendTeacher'
-]);
+        Route::post('/contact/teacher',
+        [ 'as' => 'send-contact-teacher',
+        'uses' => '\Portal\Contact\Http\ContactController@sendTeacher'
+        ]);
 
-Route::post('/contact/patient',
-[ 'as' => 'send-contact-patient',
-'uses' => '\Portal\Contact\Http\ContactController@sendPatient'
-]);
+        Route::post('/contact/patient',
+        [ 'as' => 'send-contact-patient',
+        'uses' => '\Portal\Contact\Http\ContactController@sendPatient'
+        ]);
 
-Route::get('/institute',
-[ 'as' => 'institute',
-'uses' => '\Portal\Institute\Http\InstituteController@index'
-]);
+        Route::get('/institute',
+        [ 'as' => 'institute',
+        'uses' => '\Portal\Institute\Http\InstituteController@index'
+        ]);
+    });
+} else {
+        Route::get('/',
+    [ 'as' => 'home',
+    'uses' => '\Portal\Home\Http\HomeController@index'
+    ]);
+
+    Route::get('/courses',
+    [ 'as' => 'general-courses',
+    'uses' => '\Portal\Courses\Http\CoursesController@index'
+    ]);
+
+    Route::get('/about',
+    [ 'as' => 'about',
+    'uses' => '\Portal\About\Http\AboutController@index'
+    ]);
+
+    Route::get('/contact',
+    [ 'as' => 'contact',
+    'uses' => '\Portal\Contact\Http\ContactController@index'
+    ]);
+
+
+    Route::post('/contact/student',
+    [ 'as' => 'send-contact-student',
+    'uses' => '\Portal\Contact\Http\ContactController@sendStudent'
+    ]);
+
+    Route::post('/contact/teacher',
+    [ 'as' => 'send-contact-teacher',
+    'uses' => '\Portal\Contact\Http\ContactController@sendTeacher'
+    ]);
+
+    Route::post('/contact/patient',
+    [ 'as' => 'send-contact-patient',
+    'uses' => '\Portal\Contact\Http\ContactController@sendPatient'
+    ]);
+
+    Route::get('/institute',
+    [ 'as' => 'institute',
+    'uses' => '\Portal\Institute\Http\InstituteController@index'
+    ]);
+
+}
