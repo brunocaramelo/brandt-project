@@ -4125,7 +4125,6 @@ a.post-thumbnail:hover {
 }
 
 
-
 @media screen and (min-width: 1420px) {
     .site-content .hentry {
 		margin: 0;
@@ -4143,7 +4142,7 @@ a.post-thumbnail:hover {
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 32%;
+		margin-left: 30%;
 	}
 
 	.site:before {
