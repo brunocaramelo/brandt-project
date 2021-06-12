@@ -4079,6 +4079,19 @@ a.post-thumbnail:hover {
 	}
 }
 
+@media screen and (min-width: 1600px) {
+	.site-content,
+	.site-main .widecolumn {
+		margin-left: 35%;
+	}
+
+    .site-content {
+		margin-right: 0%;
+		margin-left: 473px;
+        width: 91%;
+	}
+
+}
 
 @media screen and (min-width: 1040px) and (max-width: 1420px) {
     .site-content {
@@ -4125,21 +4138,7 @@ a.post-thumbnail:hover {
 }
 
 
-@media screen and (min-width: 1600px) {
-	.site-content,
-	.site-main .widecolumn {
-		margin-left: 35%;
-	}
-
-    .site-content {
-		margin-right: 0%;
-		margin-left: 473px;
-        width: 91%;
-	}
-
-}
-
-@media screen and (min-width: 1420px) {
+@media screen and (min-width: 1420px) and (max-width: 1599px) {
     .site-content .hentry {
 		margin: 0;
 	}
@@ -4156,7 +4155,7 @@ a.post-thumbnail:hover {
 
 	.site-content,
 	.site-main .widecolumn {
-		margin-left: 27%;
+		margin-left: 26%;
 	}
 
 	.site:before {
