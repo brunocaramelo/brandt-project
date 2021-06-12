@@ -4125,6 +4125,14 @@ a.post-thumbnail:hover {
 }
 
 
+@media screen and (min-width: 1620px) {
+	.site-content,
+	.site-main .widecolumn {
+		margin-left: 35%;
+	}
+
+}
+
 @media screen and (min-width: 1420px) {
     .site-content .hentry {
 		margin: 0;
