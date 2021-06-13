@@ -14,12 +14,12 @@ class HomeController extends Controller
     {
 
         $relevantProducts = $commerceClient->get('products', [
-            'category'=> 24,
+            'category'=> config('ecommerce.references.categories.relevants_products'),
             'status'=> 'publish',
         ]);
 
         $newProducts = $commerceClient->get('products', [
-            'category'=> 23,
+            'category'=> config('ecommerce.references.categories.new_products'),
             'status'=> 'publish',
         ]);
 

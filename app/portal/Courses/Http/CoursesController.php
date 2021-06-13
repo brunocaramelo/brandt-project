@@ -12,11 +12,11 @@ class CoursesController extends Controller
     public function index(ClientWoocommerce $commerceClient)
     {
         $onlineProducts = $commerceClient->get('products', [
-            'category'=> 17,
+            'category'=> config('ecommerce.references.categories.online_products'),
             'status'=> 'publish',
         ]);
         $presentialProducts = $commerceClient->get('products', [
-            'category'=> 18,
+            'category'=> config('ecommerce.references.categories.presential_products'),
             'status'=> 'publish',
         ]);
 
