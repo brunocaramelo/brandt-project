@@ -34,7 +34,7 @@
          <!-- Logo -->
          <div class="xwezi-logo">
              <a href="/">
-                 <img src="img/logo-dark.png" alt="">
+                 <img src="img/logo-dark.png" alt="Logo Primario" style="max-width:130%;margin-left:-10%">
              </a>
         </div>
     <!-- Menu -->
@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="logo"> <img src="img/logocinza.jpg" class="logo" alt="Logotipo" style="max-width:130%;margin-left:-10%" />
+                    <div class="logo"> <img src="img/logocinza.jpg" class="logo" alt="Logotipo" />
                         <p><small>&copy; 2021 Patricia Sheffer.</small></p>
                     </div>
                 </div>
