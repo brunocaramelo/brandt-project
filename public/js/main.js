@@ -336,11 +336,11 @@
 
 function trocaBanner(numeroBanner, imageRotatePathern) {
 
-    $("#banner-top-rotate").fadeOut(1000, function() {
+    // $("#banner-top-rotate").fadeOut(1000, function() {
         $(`#banner-top-rotate`)
         .attr(`data-background`, imageRotatePathern+numeroBanner+'.jpg')
         .css('background-image','url("'+imageRotatePathern+numeroBanner+'.jpg")')
         .css('background-color','#0000"');
-   }).fadeIn(900)
+//    }).fadeIn(900)
 
 }
