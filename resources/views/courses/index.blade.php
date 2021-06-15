@@ -2,7 +2,7 @@
 @section('title', 'Cursos')
 @section('content')
 
-<header class="header valign bg-img parallaxie" id="banner-top-rotate" data-scroll-index="0" style="background-position: left;"  data-overlay-dark="0" data-background="img/banner_site_courses_01.jpg" location-page="courses">
+<header class="header valign bg-img parallaxie" id="banner-top-rotate" data-scroll-index="0" style="background-position: left;background-color:#000"  data-overlay-dark="0" data-background="img/banner_site_courses_01.jpg" location-page="courses">
     <div class="container" style="margin-top:420px">
         {{-- <div class="row">
             <div class="col-md-12 text-left caption">
