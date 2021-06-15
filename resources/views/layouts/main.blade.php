@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="logo"> <img src="img/logocinza.jpg" class="logo" alt="Logotipo" />
-                        <p><small>&copy; 2021 Patricia Sheffer.</small></p>
+                        <p><small>&copy; 2021 Patrícia Brandt Schefer.</small></p>
                     </div>
                 </div>
                 <div class="col-md-3" style="display:none">

@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="colunas-md-3">
                     <div class="logo"> <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logocinza.png" class="logo" alt="">
-                        <p><small>&copy; 2021 Patricia Sheffer.</small></p>
+                        <p><small>&copy; 2021 Patrícia Brandt Schefer.</small></p>
                     </div>
                 </div>
                 <div class="colunas-md-3" style="display:none">
