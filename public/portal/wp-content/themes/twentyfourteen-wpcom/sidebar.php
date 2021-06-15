@@ -20,7 +20,7 @@
         <?php if ( has_nav_menu( 'secondary' ) ) : ?>
 
         <div class="xwezi-logo">
-            <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logo-dark.jpg" class="xwezi-logo" style="max-width:125%;margin-left:-10%" />
+            <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logo-dark.jpg" class="xwezi-logo" style="max-width:120%;margin-left:-10%" />
         </div>
 
         <nav role="navigation" id="xwezi-main-menu">
