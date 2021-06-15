@@ -34,7 +34,7 @@
          <!-- Logo -->
          <div class="xwezi-logo">
              <a href="/">
-                 <img src="img/logo-dark.png" alt="Logo Primario" style="max-width:130%;margin-left:-10%">
+                 <img src="img/logo-dark.jpg" alt="Logo Primario" style="max-width:130%;margin-left:-10%">
              </a>
         </div>
     <!-- Menu -->

@@ -484,7 +484,7 @@ class WP_Mobile_Menu_Core
             ?></a>
             <div class="xwezi-aside" style="padding-top:15px">
             <div class="xwezi-logo" style="margin-bottom:-40px;">
-                <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logo-dark.png" class="xwezi-logo" s/>
+                <img src="<?php echo get_site_url();?>/wp-content/themes/twentyfourteen-wpcom/images/logo-dark.jpg" class="xwezi-logo" s/>
             </div>
 
             <div class="mobmenu-content">
