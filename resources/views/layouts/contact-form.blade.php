@@ -32,7 +32,7 @@
                             </select>
                         </p>
 
-                        <form class="row contact-form-model" id="contact-student-form" target="@if(env("USE_SSL",false)){{str_replace("http","https", route('send-contact-student') )}} @else {{route('send-contact-student')}} @endif">
+                        <form class="row contact-form-model" id="contact-student-form" target="@if(env("USE_SSL",false)) {{str_replace("http","https", route('send-contact-student') )}} @else {{route('send-contact-student')}} @endif">
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
