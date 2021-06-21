@@ -32,7 +32,7 @@
                             </select>
                         </p>
 
-                        <form class="row contact-form-model" id="contact-student-form" target="{{ route('send-contact-student') }}">
+                        <form class="row contact-form-model" id="contact-student-form" target="@if(env("USE_SSL",false)){{str_replace("http","https", route('send-contact-student') )}} @else {{route('send-contact-student')}} @endif">
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
@@ -54,7 +54,7 @@
                             </div>
                         </form>
 
-                        <form class="row contact-form-model" id="contact-teacher-form" style="display:none" target="{{route("send-contact-teacher")}}">
+                        <form class="row contact-form-model" id="contact-teacher-form" style="display:none" target="@if(env("USE_SSL",false)) {{str_replace("http","https", route('send-contact-teacher') )}} @else {{route('send-contact-teacher')}} @endif">
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
@@ -76,7 +76,7 @@
                             </div>
                         </form>
 
-                        <form class="row contact-form-model" id="contact-patient-form" style="display:none" target="{{route("send-contact-patient")}}">
+                        <form class="row contact-form-model" id="contact-patient-form" style="display:none" target="@if(env("USE_SSL",false)) {{str_replace("http","https", route('send-contact-patient') )}} @else {{route('send-contact-patient')}} @endif">
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control required" placeholder="Nome *" required name="name"> </div>
