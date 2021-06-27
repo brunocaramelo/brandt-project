@@ -90,6 +90,7 @@ define( 'WP_DEBUG', false );
 define('FS_METHOD','direct');
 
 define('APPLICATION_MODE',$_ENV['APPLICATION_MODE']);
+define('APPLICATION_URL_BASE',$_ENV['APP_URL']);
 
 if(!empty($_ENV['USE_SSL']) && $_ENV['USE_SSL'] == "true" ) {
     $_SERVER["HTTPS"] = "on";

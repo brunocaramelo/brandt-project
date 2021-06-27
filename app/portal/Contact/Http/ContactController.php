@@ -4,10 +4,12 @@ namespace Portal\Contact\Http;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Notification;
+use Illuminate\Support\Facades\Http;
 
 use App\Http\Controllers\Controller;
 
 use App\Notifications\ContactDefault;
+use Portal\Contact\FormRequest\ContactRegisterRequest;
 
 class ContactController extends Controller
 {
@@ -44,5 +46,26 @@ class ContactController extends Controller
             ->notify(new \App\Notifications\ContactToPatient($params));
 
         return response()->json(['status' => 'success']);
+    }
+
+    public function registerContactMailMarketing(ContactRegisterRequest $request)
+    {
+        Http::withHeaders([
+            'X-Auth-Token' => config('mailmarketing.consumer_token'),
+             'Content-Type' => 'application/json'
+        ])->post(config('mailmarketing.api_url').'/accounts/'.config('mailmarketing.account_id').'/contacts',[
+        'contact' => [
+            'email' => $request->email,
+            'list_ids' => [config('mailmarketing.references.defaultList.id')],
+            'custom_fields' => [
+                'nome' => $request->name
+            ],
+          ]])->json();
+
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Cadastro efetuado com sucesso'
+        ]);
+
     }
 }

@@ -55,10 +55,40 @@
         <!-- Main Section -->
         @yield('content')
 
+    {{-- <hr class="line-vr-section"> --}}
+    <!-- Newsletter -->
+    <section class="newsletter-area">
+        <form id ="newsletter_form" action="POST" target="@if(env("USE_SSL",false)) {{str_replace("http","https", route('register-contacts-mailmarketing') )}} @else {{route('register-contacts-mailmarketing')}} @endif">
+            <div class="row">
+                <div class="col-md-5">
+                    <h6 style="color:white">GOSTARIA DE RECEBER NOSSA NEWSLETTER? INSCREVA-SE</h6>
+                    <input type="name" class="form-control" name="name" id="contact_name"  placeholder="NOME COMPLETO *" >
+                    <div class="alert alert-success message-newsletter-envited" style="display:none;margin-top:10px">
+                        <strong>Obrigado!</strong> Inscrição realizada sucesso.
+                    </div>
+                    <div class="alert alert-danger message-newsletter-notenvited" style="display:none;margin-top:10px">
+                        <strong>Erro!</strong> Favor corrigir os seguintes erros:
+                        <div id="errors_on_newsletter_send"></div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-5">
+                    <input type="email" class="form-control" name="email" id="contact_email"  placeholder="EMAIL *" style="margin-top:40px">
+                </div>
+                <div class="col-sm-1">
+                    <div class="form-group">
+                        <button class="btn fl-btn btn-submit-newsletter" style="background: black;margin: 40px 0 0 0; padding:7px 30px" type="submit">OK</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
     <hr class="line-vr-section">
     <!-- Footer -->
     <footer class="footer-section">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-4">
                     <div class="logo"> <img src="img/logocinza.jpg" class="logo" alt="Logotipo" />

@@ -42,3 +42,56 @@ function activeTypeForm(value) {
     $(".contact-form-model").hide();
     $("#"+formActivaded).show();
 }
+
+$(".btn-submit-newsletter").click(function(e){
+
+
+    var formActivadedObject = $(this).closest('form').get(0);
+    var formActivaded =  formActivadedObject.id;
+    var htmlErrorMessage =  '';
+
+    e.preventDefault();
+
+    $('.btn-submit-newsletter').attr('disabled', true);
+
+    $('.message-newsletter-envited').fadeOut();
+    $('.message-newsletter-notenvited').fadeOut();
+
+    $.ajax({
+        cache: false,
+        type:'POST',
+        url: formActivadedObject.target,
+        contentType: "application/json",
+        data: JSON.stringify({
+            name:$("#newsletter_form input[name=name]").val(),
+            email:$("#newsletter_form input[name=email]").val()
+        }),
+        datatype: 'json',
+    success:function(data){
+
+        $("#newsletter_form input[name=name]").val('')
+        $("#newsletter_form input[name=email]").val('')
+
+        $('.message-newsletter-envited').fadeIn("fast");
+
+        $('.btn-submit-newsletter').attr('disabled', false);
+
+    },
+    error: function(jqXHR, textStatus, errorThrown){
+        returnErr = JSON.parse(jqXHR.responseText)
+        returnErrors = returnErr.errors
+
+        htmlErrorMessage = '<br />'
+
+        returnErrors.forEach(function(item) {
+            htmlErrorMessage += item+".<br />";
+        });
+        $('.message-newsletter-notenvited').fadeIn("fast");
+
+        $('.btn-submit-newsletter').attr('disabled', false);
+        $('#errors_on_newsletter_send').html(htmlErrorMessage)
+    }
+    })
+
+});
+
