@@ -19,7 +19,7 @@
     <footer id="colophon" class="footer-section" role="contentinfo">
 
     <section class="newsletter-area">
-        <form id ="newsletter_form" action="POST" target="<?php echo APPLICATION_URL_BASE;?>api/v1/register-contacts">
+        <form id ="newsletter_form" action="POST" target="<?php echo APPLICATION_URL_BASE;?>/api/v1/register-contacts">
             <div class="row">
                 <div class="colunas-md-5">
                     <h6 style="color:white">GOSTARIA DE RECEBER NOSSA NEWSLETTER? INSCREVA-SE</h6>
