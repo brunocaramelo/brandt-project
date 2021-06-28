@@ -611,3 +611,16 @@
 .woocommerce div.product .product_meta{
     display: none;
 }
+
+.newsletter-area {
+    background-color: #caae64;
+    color:white;
+    width: 95%;
+    padding: 30px 0 50px 50px;
+}
+.newsletter-area input,.newsletter-area input:focus{
+    background-color: white;
+    border: none;
+    width: 90%;
+    padding: 5px 10px;
+}
